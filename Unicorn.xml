@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document>
+    <public>
+        <program name="Hero Lab" url="http://www.wolflair.com">
+            <programinfo>Hero Lab and the Hero Lab logo are Registered Trademarks of LWD Technology, Inc. Free download at http://www.wolflair.com
+System Reference Document 5.0 Copyright 2016, Wizards of the Coast, Inc.</programinfo>
+            <version version="7.6" primary="7" secondary="6" tertiary="" build="618"></version>
+        </program>
+        <localization language="eng" units="imperial"></localization>
+        <character active="yes" nature="normal" role="npc" relationship="enemy" type="Hero" name="Unicorn" playername="">
+            <bookinfo name="5e SRD"></bookinfo>
+            <race displayname="unicorn" name="Unicorn" ethnicity=""></race>
+            <subrace name="Unicorn"></subrace>
+            <alignment name="Lawful Good" abbreviation="LG"></alignment>
+            <templates summary=""></templates>
+            <size name="Large">
+                <space text="10'" value="10"></space>
+                <reach text="10'" value="10"></reach>
+            </size>
+            <deity name=""></deity>
+            <challengerating value="5" text="CR 5"></challengerating>
+            <xpaward value="1800" text="1,800 XP"></xpaward>
+            <classes level="0" summary="" summaryabbr=""></classes>
+            <factions></factions>
+            <types>
+                <type name="Celestial" active="yes"></type>
+            </types>
+            <typetags></typetags>
+            <background name=""></background>
+            <senses>
+                <special name="Darkvision (60 feet)" shortname="Darkvision 60 ft." sourcetext="Unicorn">
+                    <description>Many creatures in fantasy gaming worlds, especially those that dwell underground, have darkvision. Within a specified range, a creature with darkvision can see in darkness as if the darkness were dim light, so areas of darkness are only lightly obscured as far as that creature is concerned. However, the creature can't discern color in darkness, only shades of gray.</description>
+                    <specsource>Unicorn</specsource>
+                </special>
+            </senses>
+            <auras></auras>
+            <health hitdice="9d10+18" hitpoints="67" damage="0" nonlethal="0" currenthp="67">
+                <hitdice text="9d10" count="9" dietype="d10"></hitdice>
+            </health>
+            <xp total="0"></xp>
+            <money total="You have no money!" valuables="0">
+                <coins name="Platinum pieces" abbreviation="pp" count="0"></coins>
+                <coins name="Gold pieces" abbreviation="gp" count="0"></coins>
+                <coins name="Electrum pieces" abbreviation="ep" count="0"></coins>
+                <coins name="Silver pieces" abbreviation="sp" count="0"></coins>
+                <coins name="Copper pieces" abbreviation="cp" count="0"></coins>
+            </money>
+            <personal gender="" age="0" hair="" eyes="" skin="">
+                <description></description>
+                <charheight text="0'" value="0"></charheight>
+                <charweight text="0lb." value="0"></charweight>
+            </personal>
+            <languages>
+                <language name="Celestial" useradded="no"></language>
+                <language name="Elvish" useradded="no"></language>
+                <language name="Sylvan" useradded="no"></language>
+            </languages>
+            <toolproficiencies text=""></toolproficiencies>
+            <weaponproficiencies text=""></weaponproficiencies>
+            <armorproficiencies text=""></armorproficiencies>
+            <abilityscores>
+                <abilityscore name="Strength">
+                    <abilvalue text="18" base="18" modified="18"></abilvalue>
+                    <abilbonus text="+4" base="+4" modified="+4"></abilbonus>
+                    <savingthrow text="+4" isproficient="no">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Dexterity">
+                    <abilvalue text="14" base="14" modified="14"></abilvalue>
+                    <abilbonus text="+2" base="+2" modified="+2"></abilbonus>
+                    <savingthrow text="+2" isproficient="no">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Constitution">
+                    <abilvalue text="15" base="15" modified="15"></abilvalue>
+                    <abilbonus text="+2" base="+2" modified="+2"></abilbonus>
+                    <savingthrow text="+2" isproficient="no">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Intelligence">
+                    <abilvalue text="11" base="11" modified="11"></abilvalue>
+                    <abilbonus text="0" base="+0" modified="+0"></abilbonus>
+                    <savingthrow text="+0" isproficient="no">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Wisdom">
+                    <abilvalue text="17" base="17" modified="17"></abilvalue>
+                    <abilbonus text="+3" base="+3" modified="+3"></abilbonus>
+                    <savingthrow text="+3" isproficient="no">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Charisma">
+                    <abilvalue text="16" base="16" modified="16"></abilvalue>
+                    <abilbonus text="+3" base="+3" modified="+3"></abilbonus>
+                    <savingthrow text="+3" isproficient="no">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+            </abilityscores>
+            <allsaves>
+                <situationalmodifiers text=""></situationalmodifiers>
+            </allsaves>
+            <defensive></defensive>
+            <damageresistances text=""></damageresistances>
+            <damageimmunities text="Poison"></damageimmunities>
+            <damagevulnerabilities text=""></damagevulnerabilities>
+            <conditionimmunities text="Charmed, Paralyzed, Poisoned"></conditionimmunities>
+            <armorclass ac="12" fromarmor="" fromshield="" fromdexterity="+2" fromsize="" fromnatural="" frommisc="" maxdexbonus="99999">
+                <situationalmodifiers text=""></situationalmodifiers>
+            </armorclass>
+            <initiative total="+2" abiltext="+2" misctext="+0" abilname="Dexterity">
+                <situationalmodifiers text=""></situationalmodifiers>
+            </initiative>
+            <proficiencybonus total="3"></proficiencybonus>
+            <movement>
+                <speed text="50'" value="50"></speed>
+                <basespeed text="50'" value="50"></basespeed>
+            </movement>
+            <encumbrance carried="0" max="540" level=""></encumbrance>
+            <skills>
+                <skill name="Acrobatics" abilbonus="2" abilabbreviation="DEX" passive="12" value="2">
+                    <description>Your Dexterity (Acrobatics) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ship's deck. The GM might also call for a Dexterity (Acrobatics) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Animal Handling" abilbonus="3" abilabbreviation="WIS" passive="13" value="3">
+                    <description>When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the GM might call for a Wisdom (Animal Handling) check. You also make a Wisdom (Animal Handling) check to control your mount when you attempt a risky maneuver.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Arcana" abilbonus="0" abilabbreviation="INT" passive="10" value="0">
+                    <description>Your Intelligence (Arcana) check measures your ability to recall lore about spells, magic items, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Athletics" abilbonus="4" abilabbreviation="STR" passive="14" value="4">
+                    <description>Your Strength (Athletics) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:
+
+• You attempt to climb a sheer or slippery cliff, avoid hazards while scaling a wall, or cling to a surface while something is trying to knock you off.
+• You try to jump an unusually long distance or pull off a stunt midjump.
+• You struggle to swim or stay afloat in treacherous currents, storm-tossed waves, or areas of thick seaweed. Or another creature tries to push or pull you underwater or otherwise interfere with your swimming.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Deception" abilbonus="3" abilabbreviation="CHA" passive="13" value="3">
+                    <description>Your Charisma (Deception) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="History" abilbonus="0" abilabbreviation="INT" passive="10" value="0">
+                    <description>Your Intelligence (History) check measures your ability to recall lore about historical events, legendary people, ancient kingdoms, past disputes, recent wars, and lost civilizations.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Insight" abilbonus="3" abilabbreviation="WIS" passive="13" value="3">
+                    <description>Your Wisdom (Insight) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Intimidation" abilbonus="3" abilabbreviation="CHA" passive="13" value="3">
+                    <description>When you attempt to influence someone through overt threats, hostile actions, and physical violence, the GM might ask you to make a Charisma (Intimidation) check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken bottle to convince a sneering vizier to reconsider a decision.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Investigation" abilbonus="0" abilabbreviation="INT" passive="10" value="0">
+                    <description>When you look around for clues and make deductions based on those clues, you make an Intelligence (Investigation) check. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, or determine the weakest point in a tunnel that could cause it to collapse. Poring through ancient scrolls in search of a hidden fragment of knowledge might also call for an Intelligence (Investigation) check.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Medicine" abilbonus="3" abilabbreviation="WIS" passive="13" value="3">
+                    <description>A Wisdom (Medicine) check lets you try to stabilize a dying companion or diagnose an illness.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Nature" abilbonus="0" abilabbreviation="INT" passive="10" value="0">
+                    <description>Your Intelligence (Nature) check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Perception" abilbonus="3" abilabbreviation="WIS" passive="13" value="3" showpassive="yes">
+                    <description>Your Wisdom (Perception) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows of an alley, or candlelight under a closed secret door.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Performance" abilbonus="3" abilabbreviation="CHA" passive="13" value="3">
+                    <description>Your Charisma (Performance) check determines how well you can delight an audience with music, dance, acting, storytelling, or some other form of entertainment.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Persuasion" abilbonus="3" abilabbreviation="CHA" passive="13" value="3">
+                    <description>When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Charisma (Persuasion) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Religion" abilbonus="0" abilabbreviation="INT" passive="10" value="0">
+                    <description>Your Intelligence (Religion) check measures your ability to recall lore about deities, rites and prayers, religious hierarchies, holy symbols, and the practices of secret cults.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Sleight of Hand" abilbonus="2" abilabbreviation="DEX" passive="12" value="2">
+                    <description>Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity (Sleight of Hand) check. The GM might also call for a Dexterity (Sleight of Hand) check to determine whether you can lift a coin purse off another person or slip something out of another person's pocket.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Stealth" abilbonus="2" abilabbreviation="DEX" passive="12" value="2">
+                    <description>Make a Dexterity (Stealth) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Survival" abilbonus="3" abilabbreviation="WIS" passive="13" value="3">
+                    <description>The GM might ask you to make a Wisdom (Survival) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that owlbears live nearby, predict the weather, or avoid quicksand and other natural hazards.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+            </skills>
+            <skillabilities></skillabilities>
+            <feats></feats>
+            <attack attackbonus="+0" meleeattack="" rangedattack="" baseattack="+0"></attack>
+            <melee>
+                <weapon name="Hooves (Unicorn)" categorytext="Melee Weapon" typetext="Bludgeoning" attack="+7" damage="11 (2d6+4) bludgeoning" useradded="no" isproficient="yes">
+                    <geartype text="Weapon"></geartype>
+                    <description></description>
+                    <wepcategory>Melee Weapon</wepcategory>
+                    <weptype>Bludgeoning</weptype>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </weapon>
+                <weapon name="Horn (Unicorn)" categorytext="Melee Weapon" typetext="Piercing" attack="+7" damage="8 (1d8+4) piercing" useradded="no" isproficient="yes">
+                    <geartype text="Weapon"></geartype>
+                    <description></description>
+                    <wepcategory>Melee Weapon</wepcategory>
+                    <weptype>Piercing</weptype>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </weapon>
+            </melee>
+            <ranged></ranged>
+            <defenses>
+                <armor name="Natural armor" ac="+0" equipped="yes" natural="yes" stealth="" maxdex="" strengthrequired="" useradded="no" quantity="1" isproficient="yes">
+                    <weight text="" value="0"></weight>
+                    <cost text="" value="0"></cost>
+                    <geartype text="Armor"></geartype>
+                    <description></description>
+                </armor>
+            </defenses>
+            <magicitems></magicitems>
+            <gear></gear>
+            <trackedresources>
+                <trackedresource name="Healing Touch (Action, 3/day)" text="0/3" used="0" left="3" min="0" max="3"></trackedresource>
+                <trackedresource name="Inspiration" text="0/1" used="0" left="1" min="0" max="1"></trackedresource>
+                <trackedresource name="Teleport (Action, 1/day)" text="0/1" used="0" left="1" min="0" max="1"></trackedresource>
+            </trackedresources>
+            <otherspecials>
+                <special name="Charge (DC 15)" shortname="Charge (DC 15)" sourcetext="Unicorn">
+                    <description>If the unicorn moves at least 20 feet straight toward a target and then hits it with a horn attack on the same turn, the target takes an extra 9 (2d8) piercing damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.</description>
+                    <specsource>Unicorn</specsource>
+                </special>
+                <special name="Heal Self (Legendary, Costs 3 Actions)" shortname="Heal Self" sourcetext="Unicorn">
+                    <description>The unicorn magically regains 11 (2d8 + 2) hit points.</description>
+                    <specsource>Unicorn</specsource>
+                </special>
+                <special name="Healing Touch (Action, 3/day)" shortname="Healing Touch (3/day)" sourcetext="Unicorn">
+                    <description>The unicorn touches another creature with its horn. The target magically regains 11 (2d8 + 2) hit points. In addition, the touch removes all diseases and neutralizes all poisons afflicting the target.</description>
+                    <specsource>Unicorn</specsource>
+                </special>
+                <special name="Hooves (Legendary)" shortname="Hooves" sourcetext="Unicorn">
+                    <description>The unicorn makes one attack with its hooves.</description>
+                    <specsource>Unicorn</specsource>
+                </special>
+                <special name="Innate Spellcasting" shortname="Innate Spellcasting" sourcetext="Unicorn">
+                    <description>The unicorn’s innate spellcasting ability is Charisma (spell save DC 14). The unicorn can innately cast the following spells, requiring no components:
+At will: detect evil and good, druidcraft, pass without trace
+1/day each: calm emotions, dispel evil and good, entangle</description>
+                    <specsource>Unicorn</specsource>
+                </special>
+                <special name="Magic Resistance" shortname="Magic Resistance" sourcetext="Unicorn">
+                    <description>The unicorn has advantage on saving throws against spells and other magical effects.</description>
+                    <specsource>Unicorn</specsource>
+                </special>
+                <special name="Magic Weapons" shortname="Magic Weapons" sourcetext="Unicorn">
+                    <description>The unicorn’s weapon attacks are magical.</description>
+                    <specsource>Unicorn</specsource>
+                </special>
+                <special name="Multiattack (Action)" shortname="Multiattack" sourcetext="Unicorn">
+                    <description>This creature can make multiple attacks when taking the attack action.</description>
+                    <specsource>Unicorn</specsource>
+                </special>
+                <special name="Shimmering Shield (Legendary, Costs 2 Actions)" shortname="Shimmering Shield" sourcetext="Unicorn">
+                    <description>The unicorn creates a shimmering, magical field around itself or another creature it can see within 60 feet of it. The target gains a +2 bonus to AC until the end of the unicorn’s next turn.</description>
+                    <specsource>Unicorn</specsource>
+                </special>
+                <special name="Telepathy (60 feet)" shortname="Telepathy" sourcetext="Unicorn">
+                    <description>Telepathy is a magical ability that allows a monster to communicate mentally with another creature within a specified range. The contacted creature doesn't need to share a language with the monster to communicate in this way with it, but it must be able to understand at least one language. A creature without telepathy can receive and respond to telepathic messages but can't initiate or terminate a telepathic conversation.
+
+A telepathic monster doesn't need to see a contacted creature and can end the telepathic contact at any time. The contact is broken as soon as the two creatures are no longer within range of each other or if the telepathic monster contacts a different creature within range. A telepathic monster can initiate or terminate a telepathic conversation without using an action, but while the monster is incapacitated, it can't initiate telepathic contact, and any current contact is terminated.
+
+A creature within the area of an antimagic field or in any other location where magic doesn't function can't send or receive telepathic messages.</description>
+                    <specsource>Unicorn</specsource>
+                </special>
+                <special name="Teleport (Action, 1/day)" shortname="Teleport (1/day)" sourcetext="Unicorn">
+                    <description>The unicorn magically teleports itself and up to three willing creatures it can see within 5 feet of it, along with any equipment they are wearing or carrying, to a location the unicorn is familiar with, up to 1 mile away.</description>
+                    <specsource>Unicorn</specsource>
+                </special>
+            </otherspecials>
+            <cantrips></cantrips>
+            <spellsknown></spellsknown>
+            <spellsmemorized></spellsmemorized>
+            <spellbook></spellbook>
+            <spellclasses></spellclasses>
+            <spellslots></spellslots>
+            <journals>
+                <journal name="Title" gamedate="0" realdate="20160312" xp="0">
+                    <coins name="Platinum pieces" abbreviation="pp" count="0"></coins>
+                    <coins name="Gold pieces" abbreviation="gp" count="0"></coins>
+                    <coins name="Electrum pieces" abbreviation="ep" count="0"></coins>
+                    <coins name="Silver pieces" abbreviation="sp" count="0"></coins>
+                    <coins name="Copper pieces" abbreviation="cp" count="0"></coins>
+                    <description></description>
+                </journal>
+            </journals>
+            <images></images>
+            <validation>
+                <report></report>
+            </validation>
+            <settings summary="Advancement Speed: Standard Advancement; Experimental Options: Don't show statblock summary window; Output Options: Hide Validation Messages, Show Hero Portrait"></settings>
+            <npc>
+                <description></description>
+                <basics></basics>
+                <tactics></tactics>
+                <ecology></ecology>
+                <additional></additional>
+            </npc>
+            <minions></minions>
+        </character>
+        <character nature="normal" role="pc" relationship="ally" type="Hero" name="unizap" playername="">
+            <adventurersleague playernum=""></adventurersleague>
+            <race displayname="No Race" name="" ethnicity=""></race>
+            <subrace name=""></subrace>
+            <alignment name="No alignment" abbreviation=""></alignment>
+            <templates summary=""></templates>
+            <size name="Medium">
+                <space text="5'" value="5"></space>
+                <reach text="5'" value="5"></reach>
+            </size>
+            <deity name=""></deity>
+            <classes level="0" summary="" summaryabbr=""></classes>
+            <factions></factions>
+            <types></types>
+            <typetags></typetags>
+            <background name=""></background>
+            <senses></senses>
+            <auras></auras>
+            <health hitdice="" hitpoints="0" damage="0" nonlethal="0" currenthp="0"></health>
+            <xp total="0"></xp>
+            <money total="You have no money!" valuables="0">
+                <coins name="Platinum pieces" abbreviation="pp" count="0"></coins>
+                <coins name="Gold pieces" abbreviation="gp" count="0"></coins>
+                <coins name="Electrum pieces" abbreviation="ep" count="0"></coins>
+                <coins name="Silver pieces" abbreviation="sp" count="0"></coins>
+                <coins name="Copper pieces" abbreviation="cp" count="0"></coins>
+            </money>
+            <personal gender="" age="0" hair="" eyes="" skin="">
+                <description></description>
+                <charheight text="0'" value="0"></charheight>
+                <charweight text="0lb." value="0"></charweight>
+            </personal>
+            <languages></languages>
+            <toolproficiencies text=""></toolproficiencies>
+            <weaponproficiencies text=""></weaponproficiencies>
+            <armorproficiencies text=""></armorproficiencies>
+            <abilityscores>
+                <abilityscore name="Strength">
+                    <abilvalue text="10" base="10" modified="10"></abilvalue>
+                    <abilbonus text="0" base="+0" modified="+0"></abilbonus>
+                    <savingthrow text="+0" isproficient="no">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Dexterity">
+                    <abilvalue text="10" base="10" modified="10"></abilvalue>
+                    <abilbonus text="0" base="+0" modified="+0"></abilbonus>
+                    <savingthrow text="+0" isproficient="no">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Constitution">
+                    <abilvalue text="10" base="10" modified="10"></abilvalue>
+                    <abilbonus text="0" base="+0" modified="+0"></abilbonus>
+                    <savingthrow text="+0" isproficient="no">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Intelligence">
+                    <abilvalue text="10" base="10" modified="10"></abilvalue>
+                    <abilbonus text="0" base="+0" modified="+0"></abilbonus>
+                    <savingthrow text="+0" isproficient="no">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Wisdom">
+                    <abilvalue text="10" base="10" modified="10"></abilvalue>
+                    <abilbonus text="0" base="+0" modified="+0"></abilbonus>
+                    <savingthrow text="+0" isproficient="no">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Charisma">
+                    <abilvalue text="10" base="10" modified="10"></abilvalue>
+                    <abilbonus text="0" base="+0" modified="+0"></abilbonus>
+                    <savingthrow text="+0" isproficient="no">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+            </abilityscores>
+            <allsaves>
+                <situationalmodifiers text=""></situationalmodifiers>
+            </allsaves>
+            <defensive></defensive>
+            <damageresistances text=""></damageresistances>
+            <damageimmunities text=""></damageimmunities>
+            <damagevulnerabilities text=""></damagevulnerabilities>
+            <conditionimmunities text=""></conditionimmunities>
+            <armorclass ac="10" fromarmor="" fromshield="" fromdexterity="" fromsize="" fromnatural="" frommisc="" maxdexbonus="99999">
+                <situationalmodifiers text=""></situationalmodifiers>
+            </armorclass>
+            <initiative total="+0" abiltext="+0" misctext="+0" abilname="Dexterity">
+                <situationalmodifiers text=""></situationalmodifiers>
+            </initiative>
+            <proficiencybonus total="2"></proficiencybonus>
+            <movement>
+                <speed text="30'" value="30"></speed>
+                <basespeed text="30'" value="30"></basespeed>
+            </movement>
+            <encumbrance carried="0" max="150" level=""></encumbrance>
+            <skills>
+                <skill name="Acrobatics" abilbonus="0" abilabbreviation="DEX" passive="10" value="0">
+                    <description>Your Dexterity (Acrobatics) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ship's deck. The GM might also call for a Dexterity (Acrobatics) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Animal Handling" abilbonus="0" abilabbreviation="WIS" passive="10" value="0">
+                    <description>When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the GM might call for a Wisdom (Animal Handling) check. You also make a Wisdom (Animal Handling) check to control your mount when you attempt a risky maneuver.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Arcana" abilbonus="0" abilabbreviation="INT" passive="10" value="0">
+                    <description>Your Intelligence (Arcana) check measures your ability to recall lore about spells, magic items, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Athletics" abilbonus="0" abilabbreviation="STR" passive="10" value="0">
+                    <description>Your Strength (Athletics) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:
+
+• You attempt to climb a sheer or slippery cliff, avoid hazards while scaling a wall, or cling to a surface while something is trying to knock you off.
+• You try to jump an unusually long distance or pull off a stunt midjump.
+• You struggle to swim or stay afloat in treacherous currents, storm-tossed waves, or areas of thick seaweed. Or another creature tries to push or pull you underwater or otherwise interfere with your swimming.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Deception" abilbonus="0" abilabbreviation="CHA" passive="10" value="0">
+                    <description>Your Charisma (Deception) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="History" abilbonus="0" abilabbreviation="INT" passive="10" value="0">
+                    <description>Your Intelligence (History) check measures your ability to recall lore about historical events, legendary people, ancient kingdoms, past disputes, recent wars, and lost civilizations.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Insight" abilbonus="0" abilabbreviation="WIS" passive="10" value="0">
+                    <description>Your Wisdom (Insight) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Intimidation" abilbonus="0" abilabbreviation="CHA" passive="10" value="0">
+                    <description>When you attempt to influence someone through overt threats, hostile actions, and physical violence, the GM might ask you to make a Charisma (Intimidation) check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken bottle to convince a sneering vizier to reconsider a decision.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Investigation" abilbonus="0" abilabbreviation="INT" passive="10" value="0">
+                    <description>When you look around for clues and make deductions based on those clues, you make an Intelligence (Investigation) check. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, or determine the weakest point in a tunnel that could cause it to collapse. Poring through ancient scrolls in search of a hidden fragment of knowledge might also call for an Intelligence (Investigation) check.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Medicine" abilbonus="0" abilabbreviation="WIS" passive="10" value="0">
+                    <description>A Wisdom (Medicine) check lets you try to stabilize a dying companion or diagnose an illness.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Nature" abilbonus="0" abilabbreviation="INT" passive="10" value="0">
+                    <description>Your Intelligence (Nature) check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Perception" abilbonus="0" abilabbreviation="WIS" passive="10" value="0" showpassive="yes">
+                    <description>Your Wisdom (Perception) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows of an alley, or candlelight under a closed secret door.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Performance" abilbonus="0" abilabbreviation="CHA" passive="10" value="0">
+                    <description>Your Charisma (Performance) check determines how well you can delight an audience with music, dance, acting, storytelling, or some other form of entertainment.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Persuasion" abilbonus="0" abilabbreviation="CHA" passive="10" value="0">
+                    <description>When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Charisma (Persuasion) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Religion" abilbonus="0" abilabbreviation="INT" passive="10" value="0">
+                    <description>Your Intelligence (Religion) check measures your ability to recall lore about deities, rites and prayers, religious hierarchies, holy symbols, and the practices of secret cults.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Sleight of Hand" abilbonus="0" abilabbreviation="DEX" passive="10" value="0">
+                    <description>Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity (Sleight of Hand) check. The GM might also call for a Dexterity (Sleight of Hand) check to determine whether you can lift a coin purse off another person or slip something out of another person's pocket.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Stealth" abilbonus="0" abilabbreviation="DEX" passive="10" value="0">
+                    <description>Make a Dexterity (Stealth) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Survival" abilbonus="0" abilabbreviation="WIS" passive="10" value="0">
+                    <description>The GM might ask you to make a Wisdom (Survival) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that owlbears live nearby, predict the weather, or avoid quicksand and other natural hazards.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+            </skills>
+            <skillabilities></skillabilities>
+            <feats></feats>
+            <attack attackbonus="+0" meleeattack="" rangedattack="" baseattack="+0"></attack>
+            <melee></melee>
+            <ranged></ranged>
+            <defenses>
+                <armor name="Natural armor" ac="+0" equipped="yes" natural="yes" stealth="" maxdex="" strengthrequired="" useradded="no" quantity="1" isproficient="yes">
+                    <weight text="" value="0"></weight>
+                    <cost text="" value="0"></cost>
+                    <geartype text="Armor"></geartype>
+                    <description></description>
+                </armor>
+            </defenses>
+            <magicitems></magicitems>
+            <gear></gear>
+            <trackedresources>
+                <trackedresource name="Inspiration" text="0/1" used="0" left="1" min="0" max="1"></trackedresource>
+            </trackedresources>
+            <otherspecials></otherspecials>
+            <cantrips></cantrips>
+            <spellsknown></spellsknown>
+            <spellsmemorized></spellsmemorized>
+            <spellbook></spellbook>
+            <spellclasses></spellclasses>
+            <spellslots></spellslots>
+            <journals>
+                <journal name="Title" gamedate="0" realdate="20160417" xp="0">
+                    <coins name="Platinum pieces" abbreviation="pp" count="0"></coins>
+                    <coins name="Gold pieces" abbreviation="gp" count="0"></coins>
+                    <coins name="Electrum pieces" abbreviation="ep" count="0"></coins>
+                    <coins name="Silver pieces" abbreviation="sp" count="0"></coins>
+                    <coins name="Copper pieces" abbreviation="cp" count="0"></coins>
+                    <description></description>
+                </journal>
+            </journals>
+            <images></images>
+            <validation>
+                <report>Hero: You have chosen to use the Fixed scores (15, 14, 13, 12, 10, 8) of attribute choices, but your; Ability Score Points: Resource Underspent: 12 of 27; Background: You must pick a Background for your character.; Race: You must pick a Race for your character.; Hero: You must enter a Player ID for your character on the configure hero form.; Hero: You must pick an Alignment for your character.; Hero: You have enough XP to gain a level. It's time to level up!</report>
+                <validmessage>Error: Hero: You have chosen to use the Fixed scores (15, 14, 13, 12, 10, 8) of attribute choices, but your attribute choices (10, 10, 10, 10, 10, 10)</validmessage>
+                <validmessage>Warning: Ability Score Points: Resource Underspent: 12 of 27</validmessage>
+                <validmessage>Error: Background: You must pick a Background for your character.</validmessage>
+                <validmessage>Error: Race: You must pick a Race for your character.</validmessage>
+                <validmessage>Error: Hero: You must enter a Player ID for your character on the configure hero form.</validmessage>
+                <validmessage>Error: Hero: You must pick an Alignment for your character.</validmessage>
+                <validmessage>Error: Hero: You have enough XP to gain a level. It's time to level up!</validmessage>
+            </validation>
+            <settings summary="User Content -&gt; Community Packs -&gt; 5e Core Pack (v1.3): 5e Players Handbook, 5e Dungeon Master's Guide, 5e Monsters Manual; Adventurers League: Adventurers League Organized Play Character; Advancement Speed: Standard Advancement; Experimental Options: Show full statblock summary window; Output Options: Always Print 2-Weapon Attacks, Show Feat / Ability Descriptions, Show Hero Portrait, Show Unarmed (in weapons)"></settings>
+            <minions></minions>
+        </character>
+    </public>
+</document>

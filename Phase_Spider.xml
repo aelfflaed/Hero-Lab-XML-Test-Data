@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document>
+    <public>
+        <program name="Hero Lab" url="http://www.wolflair.com">
+            <programinfo>Hero Lab and the Hero Lab logo are Registered Trademarks of LWD Technology, Inc. Free download at http://www.wolflair.com
+System Reference Document 5.0 Copyright 2016, Wizards of the Coast, Inc.</programinfo>
+            <version version="7.6" primary="7" secondary="6" tertiary="" build="618"></version>
+        </program>
+        <localization language="eng" units="imperial"></localization>
+        <character active="yes" nature="normal" role="npc" relationship="enemy" type="Hero" name="Phase Spider" playername="">
+            <bookinfo name="5e SRD"></bookinfo>
+            <race displayname="phase spider" name="Phase Spider" ethnicity=""></race>
+            <subrace name="Phase Spider"></subrace>
+            <alignment name="Unaligned" abbreviation=""></alignment>
+            <templates summary=""></templates>
+            <size name="Large">
+                <space text="10'" value="10"></space>
+                <reach text="10'" value="10"></reach>
+            </size>
+            <deity name=""></deity>
+            <challengerating value="3" text="CR 3"></challengerating>
+            <xpaward value="700" text="700 XP"></xpaward>
+            <classes level="0" summary="" summaryabbr=""></classes>
+            <factions></factions>
+            <types>
+                <type name="Monstrosity" active="yes"></type>
+            </types>
+            <typetags></typetags>
+            <background name=""></background>
+            <senses>
+                <special name="Darkvision (60 feet)" shortname="Darkvision 60 ft." sourcetext="Phase Spider">
+                    <description>Many creatures in fantasy gaming worlds, especially those that dwell underground, have darkvision. Within a specified range, a creature with darkvision can see in darkness as if the darkness were dim light, so areas of darkness are only lightly obscured as far as that creature is concerned. However, the creature can't discern color in darkness, only shades of gray.</description>
+                    <specsource>Phase Spider</specsource>
+                </special>
+            </senses>
+            <auras></auras>
+            <health hitdice="5d10+5" hitpoints="32" damage="0" nonlethal="0" currenthp="32">
+                <hitdice text="5d10" count="5" dietype="d10"></hitdice>
+            </health>
+            <xp total="0"></xp>
+            <money total="You have no money!" valuables="0">
+                <coins name="Platinum pieces" abbreviation="pp" count="0"></coins>
+                <coins name="Gold pieces" abbreviation="gp" count="0"></coins>
+                <coins name="Electrum pieces" abbreviation="ep" count="0"></coins>
+                <coins name="Silver pieces" abbreviation="sp" count="0"></coins>
+                <coins name="Copper pieces" abbreviation="cp" count="0"></coins>
+            </money>
+            <personal gender="" age="0" hair="" eyes="" skin="">
+                <description></description>
+                <charheight text="0'" value="0"></charheight>
+                <charweight text="0lb." value="0"></charweight>
+            </personal>
+            <languages></languages>
+            <toolproficiencies text=""></toolproficiencies>
+            <weaponproficiencies text=""></weaponproficiencies>
+            <armorproficiencies text=""></armorproficiencies>
+            <abilityscores>
+                <abilityscore name="Strength">
+                    <abilvalue text="15" base="15" modified="15"></abilvalue>
+                    <abilbonus text="+2" base="+2" modified="+2"></abilbonus>
+                    <savingthrow text="+2" isproficient="no">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Dexterity">
+                    <abilvalue text="15" base="15" modified="15"></abilvalue>
+                    <abilbonus text="+2" base="+2" modified="+2"></abilbonus>
+                    <savingthrow text="+2" isproficient="no">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Constitution">
+                    <abilvalue text="12" base="12" modified="12"></abilvalue>
+                    <abilbonus text="+1" base="+1" modified="+1"></abilbonus>
+                    <savingthrow text="+1" isproficient="no">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Intelligence">
+                    <abilvalue text="6" base="6" modified="6"></abilvalue>
+                    <abilbonus text="-2" base="-2" modified="-2"></abilbonus>
+                    <savingthrow text="-2" isproficient="no">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Wisdom">
+                    <abilvalue text="10" base="10" modified="10"></abilvalue>
+                    <abilbonus text="0" base="+0" modified="+0"></abilbonus>
+                    <savingthrow text="+0" isproficient="no">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Charisma">
+                    <abilvalue text="6" base="6" modified="6"></abilvalue>
+                    <abilbonus text="-2" base="-2" modified="-2"></abilbonus>
+                    <savingthrow text="-2" isproficient="no">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+            </abilityscores>
+            <allsaves>
+                <situationalmodifiers text=""></situationalmodifiers>
+            </allsaves>
+            <defensive></defensive>
+            <damageresistances text=""></damageresistances>
+            <damageimmunities text=""></damageimmunities>
+            <damagevulnerabilities text=""></damagevulnerabilities>
+            <conditionimmunities text=""></conditionimmunities>
+            <armorclass ac="13" fromarmor="" fromshield="" fromdexterity="+2" fromsize="" fromnatural="+1" frommisc="" maxdexbonus="99999">
+                <situationalmodifiers text=""></situationalmodifiers>
+            </armorclass>
+            <initiative total="+2" abiltext="+2" misctext="+0" abilname="Dexterity">
+                <situationalmodifiers text=""></situationalmodifiers>
+            </initiative>
+            <proficiencybonus total="2"></proficiencybonus>
+            <movement>
+                <speed text="30'" value="30"></speed>
+                <basespeed text="30'" value="30"></basespeed>
+                <special name="Climbing (30 feet)" shortname="Climbing (30 feet)">
+                    <description>A monster that has a climbing spee d can use all or part of its movement to move on vertical surfaces.
+
+The monster doesn't need to spend extra movement to climb.</description>
+                </special>
+            </movement>
+            <encumbrance carried="0" max="450" level=""></encumbrance>
+            <skills>
+                <skill name="Acrobatics" abilbonus="2" abilabbreviation="DEX" passive="12" value="2">
+                    <description>Your Dexterity (Acrobatics) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ship's deck. The GM might also call for a Dexterity (Acrobatics) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Animal Handling" abilbonus="0" abilabbreviation="WIS" passive="10" value="0">
+                    <description>When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the GM might call for a Wisdom (Animal Handling) check. You also make a Wisdom (Animal Handling) check to control your mount when you attempt a risky maneuver.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Arcana" abilbonus="-2" abilabbreviation="INT" passive="8" value="-2">
+                    <description>Your Intelligence (Arcana) check measures your ability to recall lore about spells, magic items, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Athletics" abilbonus="2" abilabbreviation="STR" passive="12" value="2">
+                    <description>Your Strength (Athletics) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:
+
+• You attempt to climb a sheer or slippery cliff, avoid hazards while scaling a wall, or cling to a surface while something is trying to knock you off.
+• You try to jump an unusually long distance or pull off a stunt midjump.
+• You struggle to swim or stay afloat in treacherous currents, storm-tossed waves, or areas of thick seaweed. Or another creature tries to push or pull you underwater or otherwise interfere with your swimming.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Deception" abilbonus="-2" abilabbreviation="CHA" passive="8" value="-2">
+                    <description>Your Charisma (Deception) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="History" abilbonus="-2" abilabbreviation="INT" passive="8" value="-2">
+                    <description>Your Intelligence (History) check measures your ability to recall lore about historical events, legendary people, ancient kingdoms, past disputes, recent wars, and lost civilizations.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Insight" abilbonus="0" abilabbreviation="WIS" passive="10" value="0">
+                    <description>Your Wisdom (Insight) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Intimidation" abilbonus="-2" abilabbreviation="CHA" passive="8" value="-2">
+                    <description>When you attempt to influence someone through overt threats, hostile actions, and physical violence, the GM might ask you to make a Charisma (Intimidation) check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken bottle to convince a sneering vizier to reconsider a decision.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Investigation" abilbonus="-2" abilabbreviation="INT" passive="8" value="-2">
+                    <description>When you look around for clues and make deductions based on those clues, you make an Intelligence (Investigation) check. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, or determine the weakest point in a tunnel that could cause it to collapse. Poring through ancient scrolls in search of a hidden fragment of knowledge might also call for an Intelligence (Investigation) check.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Medicine" abilbonus="0" abilabbreviation="WIS" passive="10" value="0">
+                    <description>A Wisdom (Medicine) check lets you try to stabilize a dying companion or diagnose an illness.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Nature" abilbonus="-2" abilabbreviation="INT" passive="8" value="-2">
+                    <description>Your Intelligence (Nature) check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Perception" abilbonus="0" abilabbreviation="WIS" passive="10" value="0" showpassive="yes">
+                    <description>Your Wisdom (Perception) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows of an alley, or candlelight under a closed secret door.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Performance" abilbonus="-2" abilabbreviation="CHA" passive="8" value="-2">
+                    <description>Your Charisma (Performance) check determines how well you can delight an audience with music, dance, acting, storytelling, or some other form of entertainment.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Persuasion" abilbonus="-2" abilabbreviation="CHA" passive="8" value="-2">
+                    <description>When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Charisma (Persuasion) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Religion" abilbonus="-2" abilabbreviation="INT" passive="8" value="-2">
+                    <description>Your Intelligence (Religion) check measures your ability to recall lore about deities, rites and prayers, religious hierarchies, holy symbols, and the practices of secret cults.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Sleight of Hand" abilbonus="2" abilabbreviation="DEX" passive="12" value="2">
+                    <description>Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity (Sleight of Hand) check. The GM might also call for a Dexterity (Sleight of Hand) check to determine whether you can lift a coin purse off another person or slip something out of another person's pocket.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Stealth" abilbonus="2" abilabbreviation="DEX" passive="16" value="6" isproficient="yes" isprofdoubled="yes">
+                    <description>Make a Dexterity (Stealth) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Survival" abilbonus="0" abilabbreviation="WIS" passive="10" value="0">
+                    <description>The GM might ask you to make a Wisdom (Survival) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that owlbears live nearby, predict the weather, or avoid quicksand and other natural hazards.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+            </skills>
+            <skillabilities></skillabilities>
+            <feats></feats>
+            <attack attackbonus="+0" meleeattack="" rangedattack="" baseattack="+0"></attack>
+            <melee>
+                <weapon name="Bite (Phase Spider)" categorytext="Melee Weapon" typetext="Piercing" attack="+4" damage="7 (1d10+2) piercing" useradded="no" isproficient="yes">
+                    <geartype text="Weapon"></geartype>
+                    <description></description>
+                    <wepcategory>Melee Weapon</wepcategory>
+                    <weptype>Piercing</weptype>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </weapon>
+            </melee>
+            <ranged></ranged>
+            <defenses>
+                <armor name="Natural armor" ac="+1" equipped="yes" natural="yes" stealth="" maxdex="" strengthrequired="" useradded="no" quantity="1" isproficient="yes">
+                    <magicbonus text="+1" value="1"></magicbonus>
+                    <weight text="" value="0"></weight>
+                    <cost text="" value="0"></cost>
+                    <geartype text="Armor"></geartype>
+                    <description></description>
+                </armor>
+            </defenses>
+            <magicitems></magicitems>
+            <gear></gear>
+            <trackedresources>
+                <trackedresource name="Inspiration" text="0/1" used="0" left="1" min="0" max="1"></trackedresource>
+            </trackedresources>
+            <otherspecials>
+                <special name="Ethereal Jaunt" shortname="Ethereal Jaunt" sourcetext="Phase Spider">
+                    <description>As a bonus action, the spider can magically shift from the Material Plane to the Ethereal Plane, or vice versa.</description>
+                    <specsource>Phase Spider</specsource>
+                </special>
+                <special name="Spider Climb" shortname="Spider Climb" sourcetext="Phase Spider">
+                    <description>The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</description>
+                    <specsource>Phase Spider</specsource>
+                </special>
+                <special name="Web Walker" shortname="Web Walker" sourcetext="Phase Spider">
+                    <description>The spider ignores movement restrictions caused by webbing.</description>
+                    <specsource>Phase Spider</specsource>
+                </special>
+            </otherspecials>
+            <cantrips></cantrips>
+            <spellsknown></spellsknown>
+            <spellsmemorized></spellsmemorized>
+            <spellbook></spellbook>
+            <spellclasses></spellclasses>
+            <spellslots></spellslots>
+            <journals>
+                <journal name="Title" gamedate="0" realdate="20160323" xp="0">
+                    <coins name="Platinum pieces" abbreviation="pp" count="0"></coins>
+                    <coins name="Gold pieces" abbreviation="gp" count="0"></coins>
+                    <coins name="Electrum pieces" abbreviation="ep" count="0"></coins>
+                    <coins name="Silver pieces" abbreviation="sp" count="0"></coins>
+                    <coins name="Copper pieces" abbreviation="cp" count="0"></coins>
+                    <description></description>
+                </journal>
+            </journals>
+            <images></images>
+            <validation>
+                <report></report>
+            </validation>
+            <settings summary="Advancement Speed: Standard Advancement; Experimental Options: Don't show statblock summary window; Output Options: Hide Validation Messages, Show Hero Portrait"></settings>
+            <npc>
+                <description></description>
+                <basics></basics>
+                <tactics></tactics>
+                <ecology></ecology>
+                <additional></additional>
+            </npc>
+            <minions></minions>
+        </character>
+    </public>
+</document>

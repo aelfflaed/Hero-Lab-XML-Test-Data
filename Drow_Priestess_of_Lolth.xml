@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document>
+    <public>
+        <program name="Hero Lab" url="http://www.wolflair.com">
+            <programinfo>Hero Lab and the Hero Lab logo are Registered Trademarks of LWD Technology, Inc. Free download at http://www.wolflair.com
+System Reference Document 5.0 Copyright 2016, Wizards of the Coast, Inc.</programinfo>
+            <version version="7.6" primary="7" secondary="6" tertiary="" build="618"></version>
+        </program>
+        <localization language="eng" units="imperial"></localization>
+        <character active="yes" nature="normal" role="npc" relationship="enemy" type="Hero" name="Drow Priestess of Lolth" playername="">
+            <race displayname="drow priestess of lolth elf" name="Elf, Drow Priestess Of Lolth" ethnicity=""></race>
+            <subrace name="Elf, Drow Priestess Of Lolth"></subrace>
+            <alignment name="Neutral Evil" abbreviation="NE"></alignment>
+            <templates summary=""></templates>
+            <size name="Medium">
+                <space text="5'" value="5"></space>
+                <reach text="5'" value="5"></reach>
+            </size>
+            <deity name=""></deity>
+            <challengerating value="8" text="CR 8"></challengerating>
+            <xpaward value="3900" text="3,900 XP"></xpaward>
+            <classes level="0" summary="" summaryabbr=""></classes>
+            <factions></factions>
+            <types>
+                <type name="Humanoid" active="yes"></type>
+            </types>
+            <typetags></typetags>
+            <background name=""></background>
+            <senses>
+                <special name="Darkvision (120 feet)" shortname="Darkvision 120 ft." sourcetext="Elf, Drow Priestess Of Lolth">
+                    <description>Many creatures in fantasy gaming worlds, especially those that dwell underground, have darkvision. Within a specified range, a creature with darkvision can see in darkness as if the darkness were dim light, so areas of darkness are only lightly obscured as far as that creature is concerned. However, the creature can't discern color in darkness, only shades of gray.</description>
+                    <specsource>Elf, Drow Priestess Of Lolth</specsource>
+                </special>
+            </senses>
+            <auras></auras>
+            <health hitdice="13d8+13" hitpoints="71" damage="0" nonlethal="0" currenthp="71">
+                <hitdice text="13d8" count="13" dietype="d8"></hitdice>
+            </health>
+            <xp total="0"></xp>
+            <money total="You have no money!" valuables="0">
+                <coins name="Platinum pieces" abbreviation="pp" count="0"></coins>
+                <coins name="Gold pieces" abbreviation="gp" count="0"></coins>
+                <coins name="Electrum pieces" abbreviation="ep" count="0"></coins>
+                <coins name="Silver pieces" abbreviation="sp" count="0"></coins>
+                <coins name="Copper pieces" abbreviation="cp" count="0"></coins>
+            </money>
+            <personal gender="" age="0" hair="" eyes="" skin="">
+                <description></description>
+                <charheight text="0'" value="0"></charheight>
+                <charweight text="0lb." value="0"></charweight>
+            </personal>
+            <languages>
+                <language name="Elvish" useradded="no"></language>
+                <language name="Undercommon" useradded="no"></language>
+            </languages>
+            <toolproficiencies text=""></toolproficiencies>
+            <weaponproficiencies text="Scourge"></weaponproficiencies>
+            <armorproficiencies text=""></armorproficiencies>
+            <abilityscores>
+                <abilityscore name="Strength">
+                    <abilvalue text="10" base="10" modified="10"></abilvalue>
+                    <abilbonus text="0" base="+0" modified="+0"></abilbonus>
+                    <savingthrow text="+0" isproficient="no">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Dexterity">
+                    <abilvalue text="14" base="14" modified="14"></abilvalue>
+                    <abilbonus text="+2" base="+2" modified="+2"></abilbonus>
+                    <savingthrow text="+2" isproficient="no">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Constitution">
+                    <abilvalue text="12" base="12" modified="12"></abilvalue>
+                    <abilbonus text="+1" base="+1" modified="+1"></abilbonus>
+                    <savingthrow text="+4" isproficient="yes">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Intelligence">
+                    <abilvalue text="13" base="13" modified="13"></abilvalue>
+                    <abilbonus text="+1" base="+1" modified="+1"></abilbonus>
+                    <savingthrow text="+1" isproficient="no">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Wisdom">
+                    <abilvalue text="17" base="17" modified="17"></abilvalue>
+                    <abilbonus text="+3" base="+3" modified="+3"></abilbonus>
+                    <savingthrow text="+6" isproficient="yes">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Charisma">
+                    <abilvalue text="18" base="18" modified="18"></abilvalue>
+                    <abilbonus text="+4" base="+4" modified="+4"></abilbonus>
+                    <savingthrow text="+7" isproficient="yes">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+            </abilityscores>
+            <allsaves>
+                <situationalmodifiers text=""></situationalmodifiers>
+            </allsaves>
+            <defensive></defensive>
+            <damageresistances text=""></damageresistances>
+            <damageimmunities text=""></damageimmunities>
+            <damagevulnerabilities text=""></damagevulnerabilities>
+            <conditionimmunities text=""></conditionimmunities>
+            <armorclass ac="12" fromarmor="" fromshield="" fromdexterity="+2" fromsize="" fromnatural="" frommisc="" maxdexbonus="99999">
+                <situationalmodifiers text=""></situationalmodifiers>
+            </armorclass>
+            <initiative total="+2" abiltext="+2" misctext="+0" abilname="Dexterity">
+                <situationalmodifiers text=""></situationalmodifiers>
+            </initiative>
+            <proficiencybonus total="3"></proficiencybonus>
+            <movement>
+                <speed text="30'" value="30"></speed>
+                <basespeed text="30'" value="30"></basespeed>
+            </movement>
+            <encumbrance carried="0" max="150" level=""></encumbrance>
+            <skills>
+                <skill name="Acrobatics" abilbonus="2" abilabbreviation="DEX" passive="12" value="2">
+                    <description>Your Dexterity (Acrobatics) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ship's deck. The GM might also call for a Dexterity (Acrobatics) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Animal Handling" abilbonus="3" abilabbreviation="WIS" passive="13" value="3">
+                    <description>When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the GM might call for a Wisdom (Animal Handling) check. You also make a Wisdom (Animal Handling) check to control your mount when you attempt a risky maneuver.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Arcana" abilbonus="1" abilabbreviation="INT" passive="11" value="1">
+                    <description>Your Intelligence (Arcana) check measures your ability to recall lore about spells, magic items, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Athletics" abilbonus="0" abilabbreviation="STR" passive="10" value="0">
+                    <description>Your Strength (Athletics) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:
+
+• You attempt to climb a sheer or slippery cliff, avoid hazards while scaling a wall, or cling to a surface while something is trying to knock you off.
+• You try to jump an unusually long distance or pull off a stunt midjump.
+• You struggle to swim or stay afloat in treacherous currents, storm-tossed waves, or areas of thick seaweed. Or another creature tries to push or pull you underwater or otherwise interfere with your swimming.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Deception" abilbonus="4" abilabbreviation="CHA" passive="14" value="4">
+                    <description>Your Charisma (Deception) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="History" abilbonus="1" abilabbreviation="INT" passive="11" value="1">
+                    <description>Your Intelligence (History) check measures your ability to recall lore about historical events, legendary people, ancient kingdoms, past disputes, recent wars, and lost civilizations.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Insight" abilbonus="3" abilabbreviation="WIS" passive="16" value="6" isproficient="yes">
+                    <description>Your Wisdom (Insight) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Intimidation" abilbonus="4" abilabbreviation="CHA" passive="14" value="4">
+                    <description>When you attempt to influence someone through overt threats, hostile actions, and physical violence, the GM might ask you to make a Charisma (Intimidation) check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken bottle to convince a sneering vizier to reconsider a decision.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Investigation" abilbonus="1" abilabbreviation="INT" passive="11" value="1">
+                    <description>When you look around for clues and make deductions based on those clues, you make an Intelligence (Investigation) check. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, or determine the weakest point in a tunnel that could cause it to collapse. Poring through ancient scrolls in search of a hidden fragment of knowledge might also call for an Intelligence (Investigation) check.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Medicine" abilbonus="3" abilabbreviation="WIS" passive="13" value="3">
+                    <description>A Wisdom (Medicine) check lets you try to stabilize a dying companion or diagnose an illness.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Nature" abilbonus="1" abilabbreviation="INT" passive="11" value="1">
+                    <description>Your Intelligence (Nature) check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Perception" abilbonus="3" abilabbreviation="WIS" passive="16" value="6" isproficient="yes" showpassive="yes">
+                    <description>Your Wisdom (Perception) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows of an alley, or candlelight under a closed secret door.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Performance" abilbonus="4" abilabbreviation="CHA" passive="14" value="4">
+                    <description>Your Charisma (Performance) check determines how well you can delight an audience with music, dance, acting, storytelling, or some other form of entertainment.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Persuasion" abilbonus="4" abilabbreviation="CHA" passive="14" value="4">
+                    <description>When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Charisma (Persuasion) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Religion" abilbonus="1" abilabbreviation="INT" passive="14" value="4" isproficient="yes">
+                    <description>Your Intelligence (Religion) check measures your ability to recall lore about deities, rites and prayers, religious hierarchies, holy symbols, and the practices of secret cults.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Sleight of Hand" abilbonus="2" abilabbreviation="DEX" passive="12" value="2">
+                    <description>Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity (Sleight of Hand) check. The GM might also call for a Dexterity (Sleight of Hand) check to determine whether you can lift a coin purse off another person or slip something out of another person's pocket.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Stealth" abilbonus="2" abilabbreviation="DEX" passive="15" value="5" isproficient="yes">
+                    <description>Make a Dexterity (Stealth) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Survival" abilbonus="3" abilabbreviation="WIS" passive="13" value="3">
+                    <description>The GM might ask you to make a Wisdom (Survival) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that owlbears live nearby, predict the weather, or avoid quicksand and other natural hazards.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+            </skills>
+            <skillabilities></skillabilities>
+            <feats></feats>
+            <attack attackbonus="+0" meleeattack="" rangedattack="" baseattack="+0"></attack>
+            <melee></melee>
+            <ranged></ranged>
+            <defenses>
+                <armor name="Natural armor" ac="+0" equipped="yes" natural="yes" useradded="no" quantity="1">
+                    <weight text="" value="0"></weight>
+                    <cost text="" value="0"></cost>
+                    <description></description>
+                </armor>
+            </defenses>
+            <magicitems></magicitems>
+            <gear></gear>
+            <trackedresources>
+                <trackedresource name="Inspiration" text="0/1" used="0" left="1" min="0" max="1"></trackedresource>
+                <trackedresource name="Summon Demon (Action, 1/day)" text="0/1" used="0" left="1" min="0" max="1"></trackedresource>
+            </trackedresources>
+            <otherspecials>
+                <special name="Fey Ancestry" shortname="Fey Ancestry" sourcetext="Elf, Drow Priestess Of Lolth">
+                    <description>The drow has advantage on saving throws against being charmed, and magic can’t put the drow to sleep.</description>
+                    <specsource>Elf, Drow Priestess Of Lolth</specsource>
+                </special>
+                <special name="Multiattack (Action)" shortname="Multiattack" sourcetext="Elf, Drow Priestess Of Lolth">
+                    <description>This creature can make multiple attacks when taking the attack action.</description>
+                    <specsource>Elf, Drow Priestess Of Lolth</specsource>
+                </special>
+                <special name="Spellcasting" shortname="Spellcasting" sourcetext="Elf, Drow Priestess Of Lolth">
+                    <description>The drow is a 10th-level spellcaster. Her spellcasting ability is Wisdom (save DC 14, +6 to hit with spell attacks) . The drow has the following cleric spells prepared: 
+
+Cantrips (at will) : guidance, poison spray, resistance, spare the dying, thaumaturgy
+1st level (4 slots): animal friendship, cure wounds, detect poison and disease, ray of sickness
+2nd level (3 slots) : lesserrestoratlon, protection from poison, web
+3rd level (3 slots): conjure animals (2 giant spiders), dispel magic
+4th level (3 slots): divination, freedom of movement
+5th level (2 slots): insect plague, mass cure wounds</description>
+                    <specsource>Elf, Drow Priestess Of Lolth</specsource>
+                </special>
+                <special name="Summon Demon (Action, 1/day)" shortname="Summon Demon (1/day)" sourcetext="Elf, Drow Priestess Of Lolth">
+                    <description>The drow attempts to magically summon a yochlol with a 30 percent chance of success. If the attempt fails, the drow takes 5 (1d10) psychic damage. Otherwise, the summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action.</description>
+                    <specsource>Elf, Drow Priestess Of Lolth</specsource>
+                </special>
+                <special name="Sunlight Sensitivity" shortname="Sunlight Sensitivity" sourcetext="Elf, Drow Priestess Of Lolth">
+                    <description>While in sunlight, the {abText} has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</description>
+                    <specsource>Elf, Drow Priestess Of Lolth</specsource>
+                </special>
+            </otherspecials>
+            <cantrips>
+                <spell name="Guidance" class="Elf, Drow Priestess Of Lolth,Racial" casttime="1 action" range="Touch" duration="Concentration, up to 1 minute" dc="14" casterlevel="13" componenttext="Verbal, Somatic" schooltext="Divination" unlimited="yes">
+                    <description>You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one ability check of its choice. It can roll the die before or after making the ability check. The spell then ends.</description>
+                    <spellcomp>Verbal</spellcomp>
+                    <spellcomp>Somatic</spellcomp>
+                    <spellschool>Divination</spellschool>
+                </spell>
+                <spell name="Resistance" class="Elf, Drow Priestess Of Lolth,Racial" casttime="1 action" range="Touch" duration="Concentration, up to 1 minute" dc="14" casterlevel="13" componenttext="Verbal, Somatic, Material" schooltext="Abjuration" unlimited="yes">
+                    <description>You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one saving throw of its choice. It can roll the die before or after making the saving throw. The spell then ends.</description>
+                    <spellcomp>Verbal</spellcomp>
+                    <spellcomp>Somatic</spellcomp>
+                    <spellcomp>Material</spellcomp>
+                    <spellschool>Abjuration</spellschool>
+                </spell>
+                <spell name="Spare the Dying" class="Elf, Drow Priestess Of Lolth,Racial" casttime="1 action" range="Touch" duration="" dc="14" casterlevel="13" componenttext="Verbal, Somatic" schooltext="Necromancy" unlimited="yes">
+                    <description>You touch a living creature that has 0 hit points. The creature becomes stable. This spell has no effect on undead or constructs.</description>
+                    <spellcomp>Verbal</spellcomp>
+                    <spellcomp>Somatic</spellcomp>
+                    <spellschool>Necromancy</spellschool>
+                </spell>
+            </cantrips>
+            <spellsknown></spellsknown>
+            <spellsmemorized>
+                <spell name="Cure Wounds" level="1" class="Elf, Drow Priestess Of Lolth,Racial" casttime="1 action" range="Touch" duration="Instantaneous" dc="15" casterlevel="13" componenttext="Verbal, Somatic" schooltext="Evocation" castsleft="1">
+                    <description>A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.
+At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.</description>
+                    <spellcomp>Verbal</spellcomp>
+                    <spellcomp>Somatic</spellcomp>
+                    <spellschool>Evocation</spellschool>
+                </spell>
+                <spell name="Detect Poison and Disease" level="1" class="Elf, Drow Priestess Of Lolth,Racial" casttime="1 action" range="Self" duration="Concentration, up to 10 minutes" dc="15" casterlevel="13" componenttext="Verbal, Somatic, Material" schooltext="Divination" castsleft="1">
+                    <description>For the duration, you can sense the presence and location of poisons, poisonous creatures, and diseases within 30 feet of you. You also identify the kind of poison, poisonous creature, or disease in each case.
+The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</description>
+                    <spellcomp>Verbal</spellcomp>
+                    <spellcomp>Somatic</spellcomp>
+                    <spellcomp>Material</spellcomp>
+                    <spellschool>Divination</spellschool>
+                </spell>
+                <spell name="Dispel Magic" level="3" class="Elf, Drow Priestess Of Lolth,Racial" casttime="1 action" range="120 feet" duration="Instantaneous" dc="17" casterlevel="13" componenttext="Verbal, Somatic" schooltext="Abjuration" castsleft="1">
+                    <description>Choose one creature, object, or magical effect within range. Any spell of 3rd level or lower on the target ends. For each spell of 4th level or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell’s level. On a successful check, the spell ends.
+At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, you automatically end the effects of a spell on the target if the spell’s level is equal to or less than the level of the spell slot you used.</description>
+                    <spellcomp>Verbal</spellcomp>
+                    <spellcomp>Somatic</spellcomp>
+                    <spellschool>Abjuration</spellschool>
+                </spell>
+                <spell name="Divination" level="4" class="Elf, Drow Priestess Of Lolth,Racial" casttime="1 action" range="Self" duration="Instantaneous" dc="18" casterlevel="13" componenttext="Verbal, Somatic, Material" schooltext="Divination" castsleft="1">
+                    <description>Your magic and an offering put you in contact with a god or a god’s servants. You ask a single question concerning a specific goal, event, or activity to occur within 7 days. The GM offers a truthful reply. The reply might be a short phrase, a cryptic rhyme, or an omen.
+The spell doesn’t take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion.
+If you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The GM makes this roll in secret.</description>
+                    <spellcomp>Verbal</spellcomp>
+                    <spellcomp>Somatic</spellcomp>
+                    <spellcomp>Material</spellcomp>
+                    <spellschool>Divination</spellschool>
+                </spell>
+                <spell name="Freedom of Movement" level="4" class="Elf, Drow Priestess Of Lolth,Racial" casttime="1 action" range="Touch" duration="1 hour" dc="18" casterlevel="13" componenttext="Verbal, Somatic, Material" schooltext="Abjuration" castsleft="1">
+                    <description>You touch a willing creature. For the duration, the target’s movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target’s speed nor cause the target to be paralyzed or restrained.
+The target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it grappled. Finally, being underwater imposes no penalties on the target’s movement or attacks.</description>
+                    <spellcomp>Verbal</spellcomp>
+                    <spellcomp>Somatic</spellcomp>
+                    <spellcomp>Material</spellcomp>
+                    <spellschool>Abjuration</spellschool>
+                </spell>
+                <spell name="Insect Plague" level="5" class="Elf, Drow Priestess Of Lolth,Racial" casttime="1 action" range="300 feet" duration="Concentration, up to 10 minutes" dc="19" casterlevel="13" componenttext="Verbal, Somatic, Material" schooltext="Conjuration" castsleft="1">
+                    <description>Swarming, biting locusts fill a 20 foot radius sphere centered on a point you choose within range. The sphere spreads around corners. The sphere remains for the duration, and its area is lightly obscured. The sphere’s area is difficult terrain.
+When the area appears, each creature in it must make a Constitution saving throw. A creature takes 4d10 piercing damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw when it enters the spell’s area for the first time on a turn or ends its turn there.
+At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d10 for each slot level above 5th.</description>
+                    <spellcomp>Verbal</spellcomp>
+                    <spellcomp>Somatic</spellcomp>
+                    <spellcomp>Material</spellcomp>
+                    <spellschool>Conjuration</spellschool>
+                </spell>
+                <spell name="Lesser Restoration" level="2" class="Elf, Drow Priestess Of Lolth,Racial" casttime="1 action" range="Touch" duration="Instantaneous" dc="16" casterlevel="13" componenttext="Verbal, Somatic" schooltext="Abjuration" castsleft="1">
+                    <description>You touch a creature and can end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned.</description>
+                    <spellcomp>Verbal</spellcomp>
+                    <spellcomp>Somatic</spellcomp>
+                    <spellschool>Abjuration</spellschool>
+                </spell>
+                <spell name="Mass Cure Wounds" level="5" class="Elf, Drow Priestess Of Lolth,Racial" casttime="1 action" range="60 feet" duration="Instantaneous" dc="19" casterlevel="13" componenttext="Verbal, Somatic" schooltext="Evocation" castsleft="1">
+                    <description>A wave of healing energy washes out from a point of your choice within range. Choose up to six creatures in a 30 foot radius sphere centered on that point. Each target regains hit points equal to 3d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.
+At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, the healing increases by 1d8 for each slot level above 5th.</description>
+                    <spellcomp>Verbal</spellcomp>
+                    <spellcomp>Somatic</spellcomp>
+                    <spellschool>Evocation</spellschool>
+                </spell>
+                <spell name="Protection from Poison" level="2" class="Elf, Drow Priestess Of Lolth,Racial" casttime="1 action" range="Touch" duration="1 hour" dc="16" casterlevel="13" componenttext="Verbal, Somatic" schooltext="Abjuration" castsleft="1">
+                    <description>You touch a creature. If it is poisoned, you neutralize the poison. If more than one poison afflicts the target, you neutralize one poison that you know is present, or you neutralize one at random.
+For the duration, the target has advantage on saving throws against being poisoned, and it has resistance to poison damage.</description>
+                    <spellcomp>Verbal</spellcomp>
+                    <spellcomp>Somatic</spellcomp>
+                    <spellschool>Abjuration</spellschool>
+                </spell>
+            </spellsmemorized>
+            <spellbook></spellbook>
+            <spellclasses></spellclasses>
+            <spellslots>
+                <spellslot name="1st" count="4" used="0"></spellslot>
+                <spellslot name="2nd" count="3" used="0"></spellslot>
+                <spellslot name="3rd" count="3" used="0"></spellslot>
+                <spellslot name="4th" count="3" used="0"></spellslot>
+                <spellslot name="5th" count="2" used="0"></spellslot>
+            </spellslots>
+            <journals>
+                <journal name="Title" gamedate="0" realdate="20160324" xp="0">
+                    <coins name="Platinum pieces" abbreviation="pp" count="0"></coins>
+                    <coins name="Gold pieces" abbreviation="gp" count="0"></coins>
+                    <coins name="Electrum pieces" abbreviation="ep" count="0"></coins>
+                    <coins name="Silver pieces" abbreviation="sp" count="0"></coins>
+                    <coins name="Copper pieces" abbreviation="cp" count="0"></coins>
+                    <description></description>
+                </journal>
+            </journals>
+            <images></images>
+            <validation>
+                <report></report>
+            </validation>
+            <settings summary="User Content -&gt; Community Packs -&gt; 5e Core Pack (v1.3): 5e Players Handbook, 5e Monsters Manual; Advancement Speed: Standard Advancement; Experimental Options: Don't show statblock summary window; Output Options: Hide Validation Messages, Show Hero Portrait"></settings>
+            <npc>
+                <description></description>
+                <basics></basics>
+                <tactics></tactics>
+                <ecology></ecology>
+                <additional></additional>
+            </npc>
+            <minions></minions>
+        </character>
+        <character nature="normal" role="npc" relationship="enemy" type="Hero" name="elf" playername="">
+            <adventurersleague playernum=""></adventurersleague>
+            <race displayname="drow priestess of lolth elf" name="Elf, Drow Priestess Of Lolth" ethnicity=""></race>
+            <subrace name="Elf, Drow Priestess Of Lolth"></subrace>
+            <alignment name="Neutral Evil" abbreviation="NE"></alignment>
+            <templates summary=""></templates>
+            <size name="Medium">
+                <space text="5'" value="5"></space>
+                <reach text="5'" value="5"></reach>
+            </size>
+            <deity name=""></deity>
+            <challengerating value="8" text="CR 8"></challengerating>
+            <xpaward value="3900" text="3,900 XP"></xpaward>
+            <classes level="0" summary="" summaryabbr=""></classes>
+            <factions></factions>
+            <types>
+                <type name="Humanoid" active="yes"></type>
+            </types>
+            <typetags></typetags>
+            <background name=""></background>
+            <senses>
+                <special name="Darkvision (120 feet)" shortname="Darkvision 120 ft." sourcetext="Elf, Drow Priestess Of Lolth">
+                    <description>Many creatures in fantasy gaming worlds, especially those that dwell underground, have darkvision. Within a specified range, a creature with darkvision can see in darkness as if the darkness were dim light, so areas of darkness are only lightly obscured as far as that creature is concerned. However, the creature can't discern color in darkness, only shades of gray.</description>
+                    <specsource>Elf, Drow Priestess Of Lolth</specsource>
+                </special>
+            </senses>
+            <auras></auras>
+            <health hitdice="13d8+13" hitpoints="71" damage="0" nonlethal="0" currenthp="71">
+                <hitdice text="13d8" count="13" dietype="d8"></hitdice>
+            </health>
+            <xp total="0"></xp>
+            <money total="You have no money!" valuables="0">
+                <coins name="Platinum pieces" abbreviation="pp" count="0"></coins>
+                <coins name="Gold pieces" abbreviation="gp" count="0"></coins>
+                <coins name="Electrum pieces" abbreviation="ep" count="0"></coins>
+                <coins name="Silver pieces" abbreviation="sp" count="0"></coins>
+                <coins name="Copper pieces" abbreviation="cp" count="0"></coins>
+            </money>
+            <personal gender="" age="0" hair="" eyes="" skin="">
+                <description></description>
+                <charheight text="0'" value="0"></charheight>
+                <charweight text="0lb." value="0"></charweight>
+            </personal>
+            <languages>
+                <language name="Elvish" useradded="no"></language>
+                <language name="Undercommon" useradded="no"></language>
+            </languages>
+            <toolproficiencies text=""></toolproficiencies>
+            <weaponproficiencies text="Scourge"></weaponproficiencies>
+            <armorproficiencies text=""></armorproficiencies>
+            <abilityscores>
+                <abilityscore name="Strength">
+                    <abilvalue text="10" base="10" modified="10"></abilvalue>
+                    <abilbonus text="0" base="+0" modified="+0"></abilbonus>
+                    <savingthrow text="+0" isproficient="no">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Dexterity">
+                    <abilvalue text="14" base="14" modified="14"></abilvalue>
+                    <abilbonus text="+2" base="+2" modified="+2"></abilbonus>
+                    <savingthrow text="+2" isproficient="no">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Constitution">
+                    <abilvalue text="12" base="12" modified="12"></abilvalue>
+                    <abilbonus text="+1" base="+1" modified="+1"></abilbonus>
+                    <savingthrow text="+4" isproficient="yes">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Intelligence">
+                    <abilvalue text="13" base="13" modified="13"></abilvalue>
+                    <abilbonus text="+1" base="+1" modified="+1"></abilbonus>
+                    <savingthrow text="+1" isproficient="no">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Wisdom">
+                    <abilvalue text="17" base="17" modified="17"></abilvalue>
+                    <abilbonus text="+3" base="+3" modified="+3"></abilbonus>
+                    <savingthrow text="+6" isproficient="yes">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Charisma">
+                    <abilvalue text="18" base="18" modified="18"></abilvalue>
+                    <abilbonus text="+4" base="+4" modified="+4"></abilbonus>
+                    <savingthrow text="+7" isproficient="yes">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+            </abilityscores>
+            <allsaves>
+                <situationalmodifiers text=""></situationalmodifiers>
+            </allsaves>
+            <defensive></defensive>
+            <damageresistances text=""></damageresistances>
+            <damageimmunities text=""></damageimmunities>
+            <damagevulnerabilities text=""></damagevulnerabilities>
+            <conditionimmunities text=""></conditionimmunities>
+            <armorclass ac="12" fromarmor="" fromshield="" fromdexterity="+2" fromsize="" fromnatural="" frommisc="" maxdexbonus="99999">
+                <situationalmodifiers text=""></situationalmodifiers>
+            </armorclass>
+            <initiative total="+2" abiltext="+2" misctext="+0" abilname="Dexterity">
+                <situationalmodifiers text=""></situationalmodifiers>
+            </initiative>
+            <proficiencybonus total="3"></proficiencybonus>
+            <movement>
+                <speed text="30'" value="30"></speed>
+                <basespeed text="30'" value="30"></basespeed>
+            </movement>
+            <encumbrance carried="0" max="150" level=""></encumbrance>
+            <skills>
+                <skill name="Acrobatics" abilbonus="2" abilabbreviation="DEX" passive="12" value="2">
+                    <description>Your Dexterity (Acrobatics) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ship's deck. The GM might also call for a Dexterity (Acrobatics) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Animal Handling" abilbonus="3" abilabbreviation="WIS" passive="13" value="3">
+                    <description>When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the GM might call for a Wisdom (Animal Handling) check. You also make a Wisdom (Animal Handling) check to control your mount when you attempt a risky maneuver.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Arcana" abilbonus="1" abilabbreviation="INT" passive="11" value="1">
+                    <description>Your Intelligence (Arcana) check measures your ability to recall lore about spells, magic items, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Athletics" abilbonus="0" abilabbreviation="STR" passive="10" value="0">
+                    <description>Your Strength (Athletics) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:
+
+• You attempt to climb a sheer or slippery cliff, avoid hazards while scaling a wall, or cling to a surface while something is trying to knock you off.
+• You try to jump an unusually long distance or pull off a stunt midjump.
+• You struggle to swim or stay afloat in treacherous currents, storm-tossed waves, or areas of thick seaweed. Or another creature tries to push or pull you underwater or otherwise interfere with your swimming.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Deception" abilbonus="4" abilabbreviation="CHA" passive="14" value="4">
+                    <description>Your Charisma (Deception) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="History" abilbonus="1" abilabbreviation="INT" passive="11" value="1">
+                    <description>Your Intelligence (History) check measures your ability to recall lore about historical events, legendary people, ancient kingdoms, past disputes, recent wars, and lost civilizations.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Insight" abilbonus="3" abilabbreviation="WIS" passive="16" value="6" isproficient="yes">
+                    <description>Your Wisdom (Insight) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Intimidation" abilbonus="4" abilabbreviation="CHA" passive="14" value="4">
+                    <description>When you attempt to influence someone through overt threats, hostile actions, and physical violence, the GM might ask you to make a Charisma (Intimidation) check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken bottle to convince a sneering vizier to reconsider a decision.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Investigation" abilbonus="1" abilabbreviation="INT" passive="11" value="1">
+                    <description>When you look around for clues and make deductions based on those clues, you make an Intelligence (Investigation) check. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, or determine the weakest point in a tunnel that could cause it to collapse. Poring through ancient scrolls in search of a hidden fragment of knowledge might also call for an Intelligence (Investigation) check.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Medicine" abilbonus="3" abilabbreviation="WIS" passive="13" value="3">
+                    <description>A Wisdom (Medicine) check lets you try to stabilize a dying companion or diagnose an illness.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Nature" abilbonus="1" abilabbreviation="INT" passive="11" value="1">
+                    <description>Your Intelligence (Nature) check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Perception" abilbonus="3" abilabbreviation="WIS" passive="16" value="6" isproficient="yes" showpassive="yes">
+                    <description>Your Wisdom (Perception) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows of an alley, or candlelight under a closed secret door.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Performance" abilbonus="4" abilabbreviation="CHA" passive="14" value="4">
+                    <description>Your Charisma (Performance) check determines how well you can delight an audience with music, dance, acting, storytelling, or some other form of entertainment.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Persuasion" abilbonus="4" abilabbreviation="CHA" passive="14" value="4">
+                    <description>When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Charisma (Persuasion) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Religion" abilbonus="1" abilabbreviation="INT" passive="14" value="4" isproficient="yes">
+                    <description>Your Intelligence (Religion) check measures your ability to recall lore about deities, rites and prayers, religious hierarchies, holy symbols, and the practices of secret cults.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Sleight of Hand" abilbonus="2" abilabbreviation="DEX" passive="12" value="2">
+                    <description>Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity (Sleight of Hand) check. The GM might also call for a Dexterity (Sleight of Hand) check to determine whether you can lift a coin purse off another person or slip something out of another person's pocket.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Stealth" abilbonus="2" abilabbreviation="DEX" passive="15" value="5" isproficient="yes">
+                    <description>Make a Dexterity (Stealth) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Survival" abilbonus="3" abilabbreviation="WIS" passive="13" value="3">
+                    <description>The GM might ask you to make a Wisdom (Survival) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that owlbears live nearby, predict the weather, or avoid quicksand and other natural hazards.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+            </skills>
+            <skillabilities></skillabilities>
+            <feats></feats>
+            <attack attackbonus="+0" meleeattack="" rangedattack="" baseattack="+0"></attack>
+            <melee></melee>
+            <ranged></ranged>
+            <defenses>
+                <armor name="Natural armor" ac="+0" equipped="yes" natural="yes" useradded="no" quantity="1">
+                    <weight text="" value="0"></weight>
+                    <cost text="" value="0"></cost>
+                    <description></description>
+                </armor>
+            </defenses>
+            <magicitems></magicitems>
+            <gear></gear>
+            <trackedresources>
+                <trackedresource name="Inspiration" text="0/1" used="0" left="1" min="0" max="1"></trackedresource>
+                <trackedresource name="Summon Demon (Action, 1/day)" text="0/1" used="0" left="1" min="0" max="1"></trackedresource>
+            </trackedresources>
+            <otherspecials>
+                <special name="Fey Ancestry" shortname="Fey Ancestry" sourcetext="Elf, Drow Priestess Of Lolth">
+                    <description>The drow has advantage on saving throws against being charmed, and magic can’t put the drow to sleep.</description>
+                    <specsource>Elf, Drow Priestess Of Lolth</specsource>
+                </special>
+                <special name="Multiattack (Action)" shortname="Multiattack" sourcetext="Elf, Drow Priestess Of Lolth">
+                    <description>This creature can make multiple attacks when taking the attack action.</description>
+                    <specsource>Elf, Drow Priestess Of Lolth</specsource>
+                </special>
+                <special name="Spellcasting" shortname="Spellcasting" sourcetext="Elf, Drow Priestess Of Lolth">
+                    <description>The drow is a 10th-level spellcaster. Her spellcasting ability is Wisdom (save DC 14, +6 to hit with spell attacks) . The drow has the following cleric spells prepared: 
+
+Cantrips (at will) : guidance, poison spray, resistance, spare the dying, thaumaturgy
+1st level (4 slots): animal friendship, cure wounds, detect poison and disease, ray of sickness
+2nd level (3 slots) : lesserrestoratlon, protection from poison, web
+3rd level (3 slots): conjure animals (2 giant spiders), dispel magic
+4th level (3 slots): divination, freedom of movement
+5th level (2 slots): insect plague, mass cure wounds</description>
+                    <specsource>Elf, Drow Priestess Of Lolth</specsource>
+                </special>
+                <special name="Summon Demon (Action, 1/day)" shortname="Summon Demon (1/day)" sourcetext="Elf, Drow Priestess Of Lolth">
+                    <description>The drow attempts to magically summon a yochlol with a 30 percent chance of success. If the attempt fails, the drow takes 5 (1d10) psychic damage. Otherwise, the summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action.</description>
+                    <specsource>Elf, Drow Priestess Of Lolth</specsource>
+                </special>
+                <special name="Sunlight Sensitivity" shortname="Sunlight Sensitivity" sourcetext="Elf, Drow Priestess Of Lolth">
+                    <description>While in sunlight, the {abText} has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</description>
+                    <specsource>Elf, Drow Priestess Of Lolth</specsource>
+                </special>
+            </otherspecials>
+            <cantrips></cantrips>
+            <spellsknown></spellsknown>
+            <spellsmemorized></spellsmemorized>
+            <spellbook></spellbook>
+            <spellclasses></spellclasses>
+            <spellslots>
+                <spellslot name="1st" count="4" used="0"></spellslot>
+                <spellslot name="2nd" count="3" used="0"></spellslot>
+                <spellslot name="3rd" count="3" used="0"></spellslot>
+                <spellslot name="4th" count="3" used="0"></spellslot>
+                <spellslot name="5th" count="2" used="0"></spellslot>
+            </spellslots>
+            <journals>
+                <journal name="Title" gamedate="0" realdate="20160406" xp="0">
+                    <coins name="Platinum pieces" abbreviation="pp" count="0"></coins>
+                    <coins name="Gold pieces" abbreviation="gp" count="0"></coins>
+                    <coins name="Electrum pieces" abbreviation="ep" count="0"></coins>
+                    <coins name="Silver pieces" abbreviation="sp" count="0"></coins>
+                    <coins name="Copper pieces" abbreviation="cp" count="0"></coins>
+                    <description></description>
+                </journal>
+            </journals>
+            <images></images>
+            <validation>
+                <report>Hero: You have not used the attribute values you are allowed by the set of values you have chosen.; Hero: You must enter a Player ID for your character on the configure hero form.; Elf, Drow Priestess Of Lolth: Only basic and some featured and uncommon races are allowed for Advent</report>
+                <validmessage>Error: Hero: You have not used the attribute values you are allowed by the set of values you have chosen.</validmessage>
+                <validmessage>Error: Hero: You must enter a Player ID for your character on the configure hero form.</validmessage>
+                <validmessage>Error: Elf, Drow Priestess Of Lolth: Only basic and some featured and uncommon races are allowed for Adventurers League characters.</validmessage>
+            </validation>
+            <settings summary="User Content -&gt; Community Packs -&gt; 5e Core Pack (v1.3): 5e Players Handbook, 5e Dungeon Master's Guide, 5e Monsters Manual; Adventurers League: Adventurers League Organized Play Character; Advancement Speed: Standard Advancement; Experimental Options: Show full statblock summary window; Output Options: Always Print 2-Weapon Attacks, Show Feat / Ability Descriptions, Show Hero Portrait, Show Unarmed (in weapons)"></settings>
+            <npc>
+                <description></description>
+                <basics></basics>
+                <tactics></tactics>
+                <ecology></ecology>
+                <additional></additional>
+            </npc>
+            <minions></minions>
+        </character>
+    </public>
+</document>

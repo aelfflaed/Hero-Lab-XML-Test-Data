@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document>
+    <public>
+        <program name="Hero Lab" url="http://www.wolflair.com">
+            <programinfo>Hero Lab and the Hero Lab logo are Registered Trademarks of LWD Technology, Inc. Free download at http://www.wolflair.com
+System Reference Document 5.0 Copyright 2016, Wizards of the Coast, Inc.</programinfo>
+            <version version="7.6" primary="7" secondary="6" tertiary="" build="618"></version>
+        </program>
+        <localization language="eng" units="imperial"></localization>
+        <character active="yes" nature="normal" role="npc" relationship="enemy" type="Hero" name="Kavali, Dog of Orcus" playername="">
+            <race displayname="human" name="Human" ethnicity=""></race>
+            <subrace name="Human"></subrace>
+            <alignment name="Neutral Evil" abbreviation="NE"></alignment>
+            <templates summary=""></templates>
+            <size name="Medium">
+                <space text="5'" value="5"></space>
+                <reach text="5'" value="5"></reach>
+            </size>
+            <deity name=""></deity>
+            <challengerating value="4" text="CR 4"></challengerating>
+            <xpaward value="1100" text="1,100 XP"></xpaward>
+            <classes level="8" summary="wizard 8" summaryabbr="Wiz 8">
+                <class name="Wizard" level="8" spells="Spellbook" casterlevel="8" spellattack="+6" spellsavedc="14" castersource="Arcane" spellability="Intelligence" casterlevelprogression="normal">
+                    <classhitdice text="8d6" count="8" sides="6"></classhitdice>
+                </class>
+            </classes>
+            <factions></factions>
+            <types></types>
+            <typetags></typetags>
+            <background name=""></background>
+            <senses></senses>
+            <auras></auras>
+            <health hitdice="8d6+16" hitpoints="50" damage="0" nonlethal="0" currenthp="50">
+                <hitdice text="8d6" count="8" dietype="d6"></hitdice>
+            </health>
+            <xp total="34000"></xp>
+            <money total="You have no money!" valuables="0">
+                <coins name="Platinum pieces" abbreviation="pp" count="0"></coins>
+                <coins name="Gold pieces" abbreviation="gp" count="0"></coins>
+                <coins name="Electrum pieces" abbreviation="ep" count="0"></coins>
+                <coins name="Silver pieces" abbreviation="sp" count="0"></coins>
+                <coins name="Copper pieces" abbreviation="cp" count="0"></coins>
+            </money>
+            <personal gender="" age="0" hair="" eyes="" skin="">
+                <description></description>
+                <charheight text="5' 7&quot;" value="67"></charheight>
+                <charweight text="115lb." value="115"></charweight>
+            </personal>
+            <languages>
+                <language name="Abyssal"></language>
+                <language name="Common" useradded="no"></language>
+            </languages>
+            <toolproficiencies text=""></toolproficiencies>
+            <weaponproficiencies text="Crossbow, light; Dagger; Dart; Quarterstaff; Sling"></weaponproficiencies>
+            <armorproficiencies text=""></armorproficiencies>
+            <abilityscores>
+                <abilityscore name="Strength">
+                    <abilvalue text="10" base="10" modified="10"></abilvalue>
+                    <abilbonus text="0" base="+0" modified="+0"></abilbonus>
+                    <savingthrow text="+2" isproficient="no">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Dexterity">
+                    <abilvalue text="11" base="11" modified="11"></abilvalue>
+                    <abilbonus text="0" base="+0" modified="+0"></abilbonus>
+                    <savingthrow text="+2" isproficient="no">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Constitution">
+                    <abilvalue text="15" base="15" modified="15"></abilvalue>
+                    <abilbonus text="+2" base="+2" modified="+2"></abilbonus>
+                    <savingthrow text="+4" isproficient="no">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Intelligence">
+                    <abilvalue text="17" base="17" modified="17"></abilvalue>
+                    <abilbonus text="+3" base="+3" modified="+3"></abilbonus>
+                    <savingthrow text="+8" isproficient="yes">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Wisdom">
+                    <abilvalue text="11" base="11" modified="11"></abilvalue>
+                    <abilbonus text="0" base="+0" modified="+0"></abilbonus>
+                    <savingthrow text="+5" isproficient="yes">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+                <abilityscore name="Charisma">
+                    <abilvalue text="15" base="15" modified="15"></abilvalue>
+                    <abilbonus text="+2" base="+2" modified="+2"></abilbonus>
+                    <savingthrow text="+4" isproficient="no">
+                        <situationalmodifiers text=""></situationalmodifiers>
+                    </savingthrow>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </abilityscore>
+            </abilityscores>
+            <allsaves>
+                <situationalmodifiers text=""></situationalmodifiers>
+            </allsaves>
+            <defensive></defensive>
+            <damageresistances text="Fire"></damageresistances>
+            <damageimmunities text=""></damageimmunities>
+            <damagevulnerabilities text=""></damagevulnerabilities>
+            <conditionimmunities text=""></conditionimmunities>
+            <armorclass ac="12" fromarmor="" fromshield="" fromdexterity="" fromsize="" fromnatural="" frommisc="+2" maxdexbonus="99999">
+                <situationalmodifiers text=""></situationalmodifiers>
+            </armorclass>
+            <initiative total="+0" abiltext="+0" misctext="+0" abilname="Dexterity">
+                <situationalmodifiers text=""></situationalmodifiers>
+            </initiative>
+            <proficiencybonus total="3"></proficiencybonus>
+            <movement>
+                <speed text="30'" value="30"></speed>
+                <basespeed text="30'" value="30"></basespeed>
+            </movement>
+            <encumbrance carried="0" max="150" level=""></encumbrance>
+            <skills>
+                <skill name="Acrobatics" abilbonus="0" abilabbreviation="DEX" passive="10" value="0">
+                    <description>Your Dexterity (Acrobatics) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ship's deck. The GM might also call for a Dexterity (Acrobatics) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Animal Handling" abilbonus="0" abilabbreviation="WIS" passive="10" value="0">
+                    <description>When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the GM might call for a Wisdom (Animal Handling) check. You also make a Wisdom (Animal Handling) check to control your mount when you attempt a risky maneuver.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Arcana" abilbonus="3" abilabbreviation="INT" passive="16" value="6" isproficient="yes">
+                    <description>Your Intelligence (Arcana) check measures your ability to recall lore about spells, magic items, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Athletics" abilbonus="0" abilabbreviation="STR" passive="10" value="0">
+                    <description>Your Strength (Athletics) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:
+
+• You attempt to climb a sheer or slippery cliff, avoid hazards while scaling a wall, or cling to a surface while something is trying to knock you off.
+• You try to jump an unusually long distance or pull off a stunt midjump.
+• You struggle to swim or stay afloat in treacherous currents, storm-tossed waves, or areas of thick seaweed. Or another creature tries to push or pull you underwater or otherwise interfere with your swimming.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Deception" abilbonus="2" abilabbreviation="CHA" passive="12" value="2">
+                    <description>Your Charisma (Deception) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="History" abilbonus="3" abilabbreviation="INT" passive="13" value="3">
+                    <description>Your Intelligence (History) check measures your ability to recall lore about historical events, legendary people, ancient kingdoms, past disputes, recent wars, and lost civilizations.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Insight" abilbonus="0" abilabbreviation="WIS" passive="13" value="3" isproficient="yes">
+                    <description>Your Wisdom (Insight) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Intimidation" abilbonus="2" abilabbreviation="CHA" passive="12" value="2">
+                    <description>When you attempt to influence someone through overt threats, hostile actions, and physical violence, the GM might ask you to make a Charisma (Intimidation) check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken bottle to convince a sneering vizier to reconsider a decision.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Investigation" abilbonus="3" abilabbreviation="INT" passive="13" value="3">
+                    <description>When you look around for clues and make deductions based on those clues, you make an Intelligence (Investigation) check. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, or determine the weakest point in a tunnel that could cause it to collapse. Poring through ancient scrolls in search of a hidden fragment of knowledge might also call for an Intelligence (Investigation) check.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Medicine" abilbonus="0" abilabbreviation="WIS" passive="10" value="0">
+                    <description>A Wisdom (Medicine) check lets you try to stabilize a dying companion or diagnose an illness.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Nature" abilbonus="3" abilabbreviation="INT" passive="13" value="3">
+                    <description>Your Intelligence (Nature) check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Perception" abilbonus="0" abilabbreviation="WIS" passive="10" value="0" showpassive="yes">
+                    <description>Your Wisdom (Perception) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows of an alley, or candlelight under a closed secret door.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Performance" abilbonus="2" abilabbreviation="CHA" passive="12" value="2">
+                    <description>Your Charisma (Performance) check determines how well you can delight an audience with music, dance, acting, storytelling, or some other form of entertainment.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Persuasion" abilbonus="2" abilabbreviation="CHA" passive="12" value="2">
+                    <description>When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Charisma (Persuasion) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Religion" abilbonus="3" abilabbreviation="INT" passive="13" value="3">
+                    <description>Your Intelligence (Religion) check measures your ability to recall lore about deities, rites and prayers, religious hierarchies, holy symbols, and the practices of secret cults.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Sleight of Hand" abilbonus="0" abilabbreviation="DEX" passive="10" value="0">
+                    <description>Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity (Sleight of Hand) check. The GM might also call for a Dexterity (Sleight of Hand) check to determine whether you can lift a coin purse off another person or slip something out of another person's pocket.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Stealth" abilbonus="0" abilabbreviation="DEX" passive="10" value="0">
+                    <description>Make a Dexterity (Stealth) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+                <skill name="Survival" abilbonus="0" abilabbreviation="WIS" passive="10" value="0">
+                    <description>The GM might ask you to make a Wisdom (Survival) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that owlbears live nearby, predict the weather, or avoid quicksand and other natural hazards.</description>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </skill>
+            </skills>
+            <skillabilities></skillabilities>
+            <feats></feats>
+            <attack attackbonus="+4" meleeattack="" rangedattack="" baseattack="+4"></attack>
+            <melee>
+                <weapon name="Unarmed strike" categorytext="Melee Weapon" typetext="Bludgeoning" attack="+3" damage="1 bludgeoning" useradded="no" isproficient="yes">
+                    <geartype text="Weapon"></geartype>
+                    <description>Instead of using a weapon to make a melee weapon attack, you can use an unarmed strike: a punch, kick, head-butt, or similar forceful blow (none of which count as weapons). On a hit, an unarmed strike deals bludgeoning damage equal to 1 + your Strength modifier. You are proficient with your unarmed strikes.</description>
+                    <wepcategory>Melee Weapon</wepcategory>
+                    <weptype>Bludgeoning</weptype>
+                    <situationalmodifiers text=""></situationalmodifiers>
+                </weapon>
+            </melee>
+            <ranged></ranged>
+            <defenses>
+                <armor name="Natural armor" ac="+0" equipped="yes" natural="yes" stealth="" maxdex="" strengthrequired="" useradded="no" quantity="1" isproficient="yes">
+                    <weight text="" value="0"></weight>
+                    <cost text="" value="0"></cost>
+                    <geartype text="Armor"></geartype>
+                    <description></description>
+                </armor>
+            </defenses>
+            <magicitems>
+                <item name="Cloak of Protection" quantity="1" isattuned="yes">
+                    <weight text="" value="0"></weight>
+                    <cost text="" value="0"></cost>
+                    <geartype text="Wondrous Item"></geartype>
+                    <rarity text="Uncommon"></rarity>
+                    <description>You gain a +1 bonus to AC and saving throws while you wear this cloak.</description>
+                </item>
+                <item name="Ring of Fire Resistance" quantity="1" isattuned="yes">
+                    <weight text="" value="0"></weight>
+                    <cost text="" value="0"></cost>
+                    <geartype text="Ring"></geartype>
+                    <rarity text="Rare"></rarity>
+                    <description>You have resistance to one damage type while wearing this ring. The gem in the ring indicates the type, which the GM chooses or determines randomly.
+d10 - Damage Type - Gem
+1 - Acid - Pearl
+2 - Cold - Tourmaline
+3 - Fire - Garnet
+4 - Force - Sapphire
+5 - Lightning - Citrine
+6 - Necrotic - Jet
+7 - Poison - Amethyst
+8 - Psychic - Jade
+9 - Radiant - Topaz
+10 - Thunder - Spinel</description>
+                </item>
+                <item name="Ring of Protection" quantity="1" isattuned="yes">
+                    <weight text="" value="0"></weight>
+                    <cost text="" value="0"></cost>
+                    <geartype text="Ring"></geartype>
+                    <rarity text="Rare"></rarity>
+                    <description>You gain a +1 bonus to AC and saving throws while wearing this ring.</description>
+                </item>
+                <item name="Spell scroll of greater invisibility" quantity="1" isattuned="no">
+                    <weight text="" value="0"></weight>
+                    <cost text="" value="0"></cost>
+                    <geartype text="Scroll"></geartype>
+                    <rarity text="Rare"></rarity>
+                    <description>Greater Invisibility
+You or a creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target’s person.</description>
+                </item>
+                <item name="Wand of Magic Missiles (7 charges)" quantity="1" isattuned="no">
+                    <weight text="" value="0"></weight>
+                    <cost text="" value="0"></cost>
+                    <geartype text="Wand"></geartype>
+                    <rarity text="Uncommon"></rarity>
+                    <description>This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the magic missile spell from it. For 1 charge, you cast the 1st level version of the spell. You can increase the spell slot level by one for each additional charge you expend.
+The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.</description>
+                </item>
+            </magicitems>
+            <gear></gear>
+            <trackedresources>
+                <trackedresource name="Arcane Recovery (4 levels, 1/day)" text="0/1" used="0" left="1" min="0" max="1"></trackedresource>
+                <trackedresource name="Grim Harvest (1/round)" text="0/1" used="0" left="1" min="0" max="1"></trackedresource>
+                <trackedresource name="Inspiration" text="0/1" used="0" left="1" min="0" max="1"></trackedresource>
+                <trackedresource name="Wand of Magic Missiles (7 charges)" text="0/7" used="0" left="7" min="0" max="7"></trackedresource>
+            </trackedresources>
+            <otherspecials>
+                <special name="Arcane Recovery (4 levels, 1/day)" shortname="Arcane Recovery (1/day)" sourcetext="Wizard">
+                    <description>You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher. For example, if you're a 4th-level wizard, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level spell slot or two 1st-level spell slots.</description>
+                    <specsource>Wizard</specsource>
+                </special>
+                <special name="Grim Harvest (1/round)" shortname="Grim Harvest (1/round)" sourcetext="Wizard">
+                    <description>Placeholder...</description>
+                    <specsource>Wizard</specsource>
+                </special>
+                <special name="Necromancy Savant" shortname="Necromancy Savant" sourcetext="Wizard">
+                    <description>Placeholder...</description>
+                    <specsource>Wizard</specsource>
+                </special>
+                <special name="Spell scroll of greater invisibility" shortname="Spell Scroll, 4th level">
+                    <description>A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can use an action to read the scroll and cast its spell without having to provide any of the spell’s components. Otherwise, the scroll is unintelligible.
+If the spell is on your class’s spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell’s level. On a failed check, the spell disappears from the scroll with no other effect.
+Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.
+The level of the spell on the scroll determines the spell’s saving throw DC and attack bonus, as well as the scroll’s rarity, as shown in the Spell Scroll table.
+Spell Scroll
+Spell Level - Rarity - Save DC - Attack Bonus
+Cantrip - Common - 13 - +5
+1st - Common - 13 - +5
+2nd - Uncommon - 13 - +5
+3rd - Uncommon - 15 - +7
+4th - Rare - 15 - +7
+5th - Rare - 17 - +9
+6th - Very rare - 17 - +9
+7th - Very rare - 18 - +10
+8th - Very rare - 18 - +10
+9th - Legendary - 19 - +11
+A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10 + the spell’s level. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.</description>
+                </special>
+                <special name="Undead Thralls" shortname="Undead Thralls" sourcetext="Wizard">
+                    <description>Placeholder...</description>
+                    <specsource>Wizard</specsource>
+                </special>
+                <special name="Wand of Magic Missiles (7 charges)" shortname="Wand of Magic Missiles">
+                    <description>This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the magic missile spell from it. For 1 charge, you cast the 1st level version of the spell. You can increase the spell slot level by one for each additional charge you expend.
+The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.</description>
+                </special>
+            </otherspecials>
+            <cantrips>
+                <spell name="Chill Touch" class="Human,Wizard" casttime="1 action" range="120 feet" duration="1 round" dc="14" casterlevel="8" componenttext="Verbal, Somatic" schooltext="Necromancy" unlimited="yes">
+                    <description>You create a ghostly, skeletal hand in the space of a creature within range. Make a ranged spell attack against the creature to assail it with the chill of the grave. On a hit, the target takes 1d8 necrotic damage, and it can’t regain hit points until the start of your next turn. Until then, the hand clings to the target.
+If you hit an undead target, it also has disadvantage on attack rolls against you until the end of your next turn.
+This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</description>
+                    <spellcomp>Verbal</spellcomp>
+                    <spellcomp>Somatic</spellcomp>
+                    <spellschool>Necromancy</spellschool>
+                </spell>
+                <spell name="Light" class="Human,Wizard" casttime="1 action" range="Touch" duration="1 hour" dc="14" casterlevel="8" componenttext="Verbal, Material" schooltext="Evocation" unlimited="yes">
+                    <description>You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20 foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.
+If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell.</description>
+                    <spellcomp>Verbal</spellcomp>
+                    <spellcomp>Material</spellcomp>
+                    <spellschool>Evocation</spellschool>
+                </spell>
+                <spell name="Message" class="Human,Wizard" casttime="1 action" range="120 feet" duration="1 round" dc="14" casterlevel="8" componenttext="Verbal, Somatic, Material" schooltext="Transmutation" unlimited="yes">
+                    <description>You point your finger toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear.
+You can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence, 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood blocks the spell. The spell doesn’t have to follow a straight line and can travel freely around corners or through openings.</description>
+                    <spellcomp>Verbal</spellcomp>
+                    <spellcomp>Somatic</spellcomp>
+                    <spellcomp>Material</spellcomp>
+                    <spellschool>Transmutation</spellschool>
+                </spell>
+                <spell name="Ray of Frost" class="Human,Wizard" casttime="1 action" range="60 feet" duration="Instantaneous" dc="14" casterlevel="8" componenttext="Verbal, Somatic" schooltext="Evocation" unlimited="yes">
+                    <description>A frigid beam of blue white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn.
+The spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</description>
+                    <spellcomp>Verbal</spellcomp>
+                    <spellcomp>Somatic</spellcomp>
+                    <spellschool>Evocation</spellschool>
+                </spell>
+            </cantrips>
+            <spellsknown></spellsknown>
+            <spellsmemorized>
+                <spell name="Animate Dead" level="3" class="Human,Wizard" casttime="1 minute" range="10 feet" duration="Instantaneous" dc="17" casterlevel="8" componenttext="Verbal, Somatic, Material" schooltext="Necromancy" castsleft="1">
+                    <description>This spell creates an undead servant. Choose a pile of bones or a corpse of a Medium or Small humanoid within range. Your spell imbues the target with a foul mimicry of life, raising it as an undead creature. The target becomes a skeleton if you chose bones or a zombie if you chose a corpse (the GM has the creature’s game statistics).
+On each of your turns, you can use a bonus action to mentally command any creature you made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.
+The creature is under your control for 24 hours, after which it stops obeying any command you’ve given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature again before the current 24 hour period ends. This use of the spell reasserts your control over up to four creatures you have animated with this spell, rather than animating a new one.
+At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, you animate or reassert control over two additional undead creatures for each slot level above 3rd. Each of the creatures must come from a different corpse or pile of bones.</description>
+                    <spellcomp>Verbal</spellcomp>
+                    <spellcomp>Somatic</spellcomp>
+                    <spellcomp>Material</spellcomp>
+                    <spellschool>Necromancy</spellschool>
+                </spell>
+                <spell name="Confusion" level="4" class="Human,Wizard" casttime="1 action" range="90 feet" duration="Concentration, up to 1 minute" dc="18" casterlevel="8" componenttext="Verbal, Somatic, Material" schooltext="Enchantment" castsleft="1">
+                    <description>This spell assaults and twists creatures’ minds, spawning delusions and provoking uncontrolled action. Each creature in a 10 foot radius sphere centered on a point you choose within range must succeed on a Wisdom saving throw when you cast this spell or be affected by it.
+An affected target can’t take reactions and must roll a d10 at the start of each of its turns to determine its behavior for that turn.
+d10 - Behavior 1 - The creature uses all its movement to move in a random direction. To determine the direction, roll a d8 and assign a direction to each die face. The creature doesn’t take an action this turn.
+2–6 - The creature doesn’t move or take actions this turn.
+7–8 - The creature uses its action to make a melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature does nothing this turn.
+9–10 - The creature can act and move normally.
+At the end of each of its turns, an affected target can make a Wisdom saving throw. If it succeeds, this effect ends for that target.
+At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the radius of the sphere increases by 5 feet for each slot level above 4th.</description>
+                    <spellcomp>Verbal</spellcomp>
+                    <spellcomp>Somatic</spellcomp>
+                    <spellcomp>Material</spellcomp>
+                    <spellschool>Enchantment</spellschool>
+                </spell>
+                <spell name="Crown of Madness" level="2" class="Human,Wizard" casttime="1 action" range="120 feet" duration="up to 1 minute" dc="16" casterlevel="8" componenttext="Verbal, Somatic" schooltext="Enchantment" castsleft="1">
+                    <description>One humanoid of your choice that you can see within range must succeed on a Wisdom saving throw or become charmed by you for the duration. While the target is charmed in this way, a twisted crown of jagged iron appears on its head, and a madness glows in its eyes. 
+
+The charmed target must use its action before moving on each of its turns to make a melee attack against a creature other than itself that you mentally choose. The target can act normally on its turn if you choose no creature or if none are within its reach.
+
+On your subsequent turns, you must use your action to maintain control over the target, or the spell ends. Also, the target can make a Wisdom saving throw at the end of each of its turns. On a success, the spell ends.</description>
+                    <spellcomp>Verbal</spellcomp>
+                    <spellcomp>Somatic</spellcomp>
+                    <spellschool>Enchantment</spellschool>
+                </spell>
+                <spell name="Evard's Black Tentacles" level="4" class="Human,Wizard" casttime="1 action" range="90 feet" duration="up to 1 minute" dc="18" casterlevel="8" componenttext="Verbal, Somatic, Material" schooltext="Conjuration" castsleft="1">
+                    <description>Squirming, ebony tentacles fill a 20-foot square on ground that you can see within range. For the duration, these tentacles turn the ground in the area into difficult terrain.
+
+When a creature enters the afected area for the first time on a turn or starts its turn there, the creature must succeed on a Dexterity saving throw or take 3d6 bludgeoning damage and be restrained by the tentacles until the spell ends. A creature that starts its turn in the area and is already restrained by the tentacles takes 3d6 bludgeoning damage.
+
+A creature restrained by the tentacles can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, it frees itself.</description>
+                    <spellcomp>Verbal</spellcomp>
+                    <spellcomp>Somatic</spellcomp>
+                    <spellcomp>Material</spellcomp>
+                    <spellschool>Conjuration</spellschool>
+                </spell>
+                <spell name="Haste" level="3" class="Human,Wizard" casttime="1 action" range="30 feet" duration="Concentration, up to 1 minute" dc="17" casterlevel="8" componenttext="Verbal, Somatic, Material" schooltext="Transmutation" castsleft="1">
+                    <description>Choose a willing creature that you can see within range. Until the spell ends, the target’s speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.
+When the spell ends, the target can’t move or take actions until after its next turn, as a wave of lethargy sweeps over it.</description>
+                    <spellcomp>Verbal</spellcomp>
+                    <spellcomp>Somatic</spellcomp>
+                    <spellcomp>Material</spellcomp>
+                    <spellschool>Transmutation</spellschool>
+                </spell>
+                <spell name="Invisibility" level="2" class="Human,Wizard" casttime="1 action" range="Touch" duration="Concentration, up to 1 hour" dc="16" casterlevel="8" componenttext="Verbal, Somatic, Material" schooltext="Illusion" castsleft="1">
+                    <description>A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target’s person. The spell ends for a target that attacks or casts a spell.
+At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</description>
+                    <spellcomp>Verbal</spellcomp>
+                    <spellcomp>Somatic</spellcomp>
+                    <spellcomp>Material</spellcomp>
+                    <spellschool>Illusion</spellschool>
+                </spell>
+                <spell name="Mage Armor" level="1" class="Human,Wizard" casttime="1 action" range="Touch" duration="8 hours" dc="15" casterlevel="8" componenttext="Verbal, Somatic, Material" schooltext="Abjuration" castsleft="1">
+                    <description>You touch a willing creature who isn’t wearing armor, and a protective magical force surrounds it until the spell ends. The target’s base AC becomes 13 + its Dexterity modifier. The spell ends if the target dons armor or if you dismiss the spell as an action.</description>
+                    <spellcomp>Verbal</spellcomp>
+                    <spellcomp>Somatic</spellcomp>
+                    <spellcomp>Material</spellcomp>
+                    <spellschool>Abjuration</spellschool>
+                </spell>
+                <spell name="Magic Missile" level="1" class="Human,Wizard" casttime="1 action" range="120 feet" duration="Instantaneous" dc="15" casterlevel="8" componenttext="Verbal, Somatic" schooltext="Evocation" castsleft="1">
+                    <description>You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals 1d4 + 1 force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.
+At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot level above 1st.</description>
+                    <spellcomp>Verbal</spellcomp>
+                    <spellcomp>Somatic</spellcomp>
+                    <spellschool>Evocation</spellschool>
+                </spell>
+                <spell name="Scorching Ray" level="2" class="Human,Wizard" casttime="1 action" range="120 feet" duration="Instantaneous" dc="16" casterlevel="8" componenttext="Verbal, Somatic" schooltext="Evocation" castsleft="1">
+                    <description>You create three rays of fire and hurl them at targets within range. You can hurl them at one target or several.
+Make a ranged spell attack for each ray. On a hit, the target takes 2d6 fire damage.
+At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, you create one additional ray for each slot level above 2nd.</description>
+                    <spellcomp>Verbal</spellcomp>
+                    <spellcomp>Somatic</spellcomp>
+                    <spellschool>Evocation</spellschool>
+                </spell>
+                <spell name="Shield" level="1" class="Human,Wizard" casttime="1 reaction" range="Self" duration="1 round" dc="15" casterlevel="8" componenttext="Verbal, Somatic" schooltext="Abjuration" castsleft="1">
+                    <description>An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.</description>
+                    <spellcomp>Verbal</spellcomp>
+                    <spellcomp>Somatic</spellcomp>
+                    <spellschool>Abjuration</spellschool>
+                </spell>
+                <spell name="Vampiric Touch" level="3" class="Human,Wizard" casttime="1 action" range="Self" duration="Concentration, up to 1 minute" dc="17" casterlevel="8" componenttext="Verbal, Somatic" schooltext="Necromancy" castsleft="1">
+                    <description>The touch of your shadow wreathed hand can siphon life force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit, the target takes 3d6 necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends, you can make the attack again on each of your turns as an action.
+At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</description>
+                    <spellcomp>Verbal</spellcomp>
+                    <spellcomp>Somatic</spellcomp>
+                    <spellschool>Necromancy</spellschool>
+                </spell>
+            </spellsmemorized>
+            <spellbook></spellbook>
+            <spellclasses>
+                <spellclass name="Wizard" spells="Spellbook" maxspelllevel="4" cantripcount="4" spellcount="11"></spellclass>
+            </spellclasses>
+            <spellslots>
+                <spellslot name="1st" count="4" used="4"></spellslot>
+                <spellslot name="2nd" count="3" used="3"></spellslot>
+                <spellslot name="3rd" count="3" used="3"></spellslot>
+                <spellslot name="4th" count="2" used="2"></spellslot>
+            </spellslots>
+            <journals>
+                <journal name="Title" gamedate="0" realdate="20160414" xp="0">
+                    <coins name="Platinum pieces" abbreviation="pp" count="0"></coins>
+                    <coins name="Gold pieces" abbreviation="gp" count="0"></coins>
+                    <coins name="Electrum pieces" abbreviation="ep" count="0"></coins>
+                    <coins name="Silver pieces" abbreviation="sp" count="0"></coins>
+                    <coins name="Copper pieces" abbreviation="cp" count="0"></coins>
+                    <description></description>
+                </journal>
+            </journals>
+            <images></images>
+            <validation>
+                <report>Wizard: At 8th level, your spellbook should have a minimum of 20 spells in it. Add 3 more spells to </report>
+                <validmessage>Error: Wizard: At 8th level, your spellbook should have a minimum of 20 spells in it. Add 3 more spells to your spellbook!</validmessage>
+            </validation>
+            <settings summary="User Content -&gt; Community Packs -&gt; 5e Core Pack (v1.3): 5e Players Handbook, 5e Dungeon Master's Guide, 5e Monsters Manual; Advancement Speed: Standard Advancement; Experimental Options: Don't show statblock summary window; Output Options: Always Print 2-Weapon Attacks, Show Feat / Ability Descriptions, Show Hero Portrait, Show Unarmed (in weapons)"></settings>
+            <npc>
+                <description></description>
+                <basics></basics>
+                <tactics></tactics>
+                <ecology></ecology>
+                <additional></additional>
+            </npc>
+            <minions></minions>
+        </character>
+    </public>
+</document>
